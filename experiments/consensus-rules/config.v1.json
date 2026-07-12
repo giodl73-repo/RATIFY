@@ -1,0 +1,24 @@
+{
+  "experiment_id": "consensus-rules-geographic-distribution-v1",
+  "seed": 20260712,
+  "national_support_target_percent": 52.0,
+  "state_pass_threshold_percent": 50.0,
+  "strong_national_threshold_percent": 55.0,
+  "strong_state_threshold_count": 30,
+  "states": [["AL",9,"security"],["AK",3,"restraint"],["AZ",11,"balanced"],["AR",6,"restraint"],["CA",54,"social"],["CO",10,"investment"],["CT",7,"social"],["DE",3,"social"],["DC",3,"social"],["FL",30,"security"],["GA",16,"balanced"],["HI",4,"social"],["ID",4,"restraint"],["IL",19,"social"],["IN",11,"restraint"],["IA",6,"balanced"],["KS",6,"restraint"],["KY",8,"security"],["LA",8,"security"],["ME",4,"balanced"],["MD",10,"social"],["MA",11,"social"],["MI",15,"balanced"],["MN",10,"investment"],["MS",6,"security"],["MO",10,"restraint"],["MT",4,"restraint"],["NE",5,"restraint"],["NV",6,"balanced"],["NH",4,"investment"],["NJ",14,"social"],["NM",5,"social"],["NY",28,"social"],["NC",16,"balanced"],["ND",3,"restraint"],["OH",17,"balanced"],["OK",7,"security"],["OR",8,"investment"],["PA",19,"balanced"],["RI",4,"social"],["SC",9,"security"],["SD",3,"restraint"],["TN",11,"security"],["TX",40,"security"],["UT",6,"investment"],["VT",3,"social"],["VA",13,"balanced"],["WA",12,"investment"],["WV",4,"security"],["WI",10,"balanced"],["WY",3,"restraint"]],
+  "profile_scores": {"social":1.0,"investment":0.65,"balanced":0.0,"security":-0.55,"restraint":-0.9},
+  "scenarios": [
+    {"id":"uniform","size_correlation":0.0,"profile_strength":0.0,"noise":0.0},
+    {"id":"large_state_concentration","size_correlation":1.4,"profile_strength":0.0,"noise":0.15},
+    {"id":"small_state_concentration","size_correlation":-1.4,"profile_strength":0.0,"noise":0.15},
+    {"id":"profile_polarization","size_correlation":0.0,"profile_strength":1.5,"noise":0.2},
+    {"id":"large_state_plus_profile","size_correlation":1.0,"profile_strength":1.1,"noise":0.2},
+    {"id":"small_state_plus_profile","size_correlation":-1.0,"profile_strength":1.1,"noise":0.2}
+  ],
+  "limitations": [
+    "House seats are a population proxy, not current state population or turnout.",
+    "State support rates are synthetic and calibrated to the same national support target.",
+    "Electoral votes use winner-take-all aggregation for every jurisdiction, including Maine and Nebraska, solely as a rule comparator.",
+    "The experiment measures aggregation behavior, not voter preferences or constitutional validity."
+  ]
+}

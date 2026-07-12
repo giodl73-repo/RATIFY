@@ -20,8 +20,8 @@ systems deserve depth packets for the U.S. consensus and reauthorization work.
 |---|---|---|
 | 01 | Establish roles and wave governance | complete |
 | 02 | Capture seven comparable institutional records | complete |
-| 03 | Role-review transfer claims and select depth priorities | active |
-| 04 | Validate, close, and open the first simulation-transfer wave | pending |
+| 03 | Role-review transfer claims and select depth priorities | complete |
+| 04 | Validate, close, and open the first simulation-transfer wave | complete |
 
 ## Decision gate
 

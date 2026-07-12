@@ -1,0 +1,2563 @@
+{
+  "experiment_id": "consensus-rules-geographic-distribution-v1",
+  "simulation_status": "synthetic_aggregation_stress_test_not_public_opinion",
+  "seed": 20260712,
+  "fixed_national_support_target_percent": 52.0,
+  "scenarios": [
+    {
+      "scenario": "uniform",
+      "national_support_percent": 52.0,
+      "states_carried_of_50": 50,
+      "electoral_votes_yes_of_538": 538,
+      "rules": {
+        "national_popular_majority": true,
+        "majority_of_states": true,
+        "electoral_college_270": true,
+        "double_majority_popular_plus_states": true,
+        "strong_consensus_55_percent_plus_30_states": false
+      },
+      "territorial_veto_of_popular_majority": false,
+      "state_rows": [
+        {
+          "state": "AL",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "AK",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "AZ",
+          "profile": "balanced",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "AR",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "CA",
+          "profile": "social",
+          "electoral_votes": 54,
+          "population_proxy_house_seats": 52,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "CO",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "CT",
+          "profile": "social",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "DE",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "DC",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "FL",
+          "profile": "security",
+          "electoral_votes": 30,
+          "population_proxy_house_seats": 28,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "GA",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "HI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "ID",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "IL",
+          "profile": "social",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "IN",
+          "profile": "restraint",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "IA",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "KS",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "KY",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "LA",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "ME",
+          "profile": "balanced",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MD",
+          "profile": "social",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MA",
+          "profile": "social",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MI",
+          "profile": "balanced",
+          "electoral_votes": 15,
+          "population_proxy_house_seats": 13,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MN",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MS",
+          "profile": "security",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MO",
+          "profile": "restraint",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "MT",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NE",
+          "profile": "restraint",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NV",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NH",
+          "profile": "investment",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NJ",
+          "profile": "social",
+          "electoral_votes": 14,
+          "population_proxy_house_seats": 12,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NM",
+          "profile": "social",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NY",
+          "profile": "social",
+          "electoral_votes": 28,
+          "population_proxy_house_seats": 26,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "NC",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "ND",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "OH",
+          "profile": "balanced",
+          "electoral_votes": 17,
+          "population_proxy_house_seats": 15,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "OK",
+          "profile": "security",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "OR",
+          "profile": "investment",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "PA",
+          "profile": "balanced",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "RI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "SC",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "SD",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "TN",
+          "profile": "security",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "TX",
+          "profile": "security",
+          "electoral_votes": 40,
+          "population_proxy_house_seats": 38,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "UT",
+          "profile": "investment",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "VT",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "VA",
+          "profile": "balanced",
+          "electoral_votes": 13,
+          "population_proxy_house_seats": 11,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "WA",
+          "profile": "investment",
+          "electoral_votes": 12,
+          "population_proxy_house_seats": 10,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "WV",
+          "profile": "security",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "WI",
+          "profile": "balanced",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 52.0,
+          "state_yes": true
+        },
+        {
+          "state": "WY",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 52.0,
+          "state_yes": true
+        }
+      ]
+    },
+    {
+      "scenario": "large_state_concentration",
+      "national_support_percent": 52.0,
+      "states_carried_of_50": 10,
+      "electoral_votes_yes_of_538": 254,
+      "rules": {
+        "national_popular_majority": true,
+        "majority_of_states": false,
+        "electoral_college_270": false,
+        "double_majority_popular_plus_states": false,
+        "strong_consensus_55_percent_plus_30_states": false
+      },
+      "territorial_veto_of_popular_majority": true,
+      "state_rows": [
+        {
+          "state": "AL",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 29.4917,
+          "state_yes": false
+        },
+        {
+          "state": "AK",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 3.8862,
+          "state_yes": false
+        },
+        {
+          "state": "AZ",
+          "profile": "balanced",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 38.2396,
+          "state_yes": false
+        },
+        {
+          "state": "AR",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 16.5377,
+          "state_yes": false
+        },
+        {
+          "state": "CA",
+          "profile": "social",
+          "electoral_votes": 54,
+          "population_proxy_house_seats": 52,
+          "support_percent": 87.7134,
+          "state_yes": true
+        },
+        {
+          "state": "CO",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 32.9648,
+          "state_yes": false
+        },
+        {
+          "state": "CT",
+          "profile": "social",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 19.1897,
+          "state_yes": false
+        },
+        {
+          "state": "DE",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.9992,
+          "state_yes": false
+        },
+        {
+          "state": "DC",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.6286,
+          "state_yes": false
+        },
+        {
+          "state": "FL",
+          "profile": "security",
+          "electoral_votes": 30,
+          "population_proxy_house_seats": 28,
+          "support_percent": 72.0387,
+          "state_yes": true
+        },
+        {
+          "state": "GA",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 56.6293,
+          "state_yes": true
+        },
+        {
+          "state": "HI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 8.8586,
+          "state_yes": false
+        },
+        {
+          "state": "ID",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 6.114,
+          "state_yes": false
+        },
+        {
+          "state": "IL",
+          "profile": "social",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 60.1765,
+          "state_yes": true
+        },
+        {
+          "state": "IN",
+          "profile": "restraint",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 42.0665,
+          "state_yes": false
+        },
+        {
+          "state": "IA",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 16.1865,
+          "state_yes": false
+        },
+        {
+          "state": "KS",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 14.4294,
+          "state_yes": false
+        },
+        {
+          "state": "KY",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 25.1123,
+          "state_yes": false
+        },
+        {
+          "state": "LA",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 25.4855,
+          "state_yes": false
+        },
+        {
+          "state": "ME",
+          "profile": "balanced",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 7.3417,
+          "state_yes": false
+        },
+        {
+          "state": "MD",
+          "profile": "social",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 31.0308,
+          "state_yes": false
+        },
+        {
+          "state": "MA",
+          "profile": "social",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 45.9505,
+          "state_yes": false
+        },
+        {
+          "state": "MI",
+          "profile": "balanced",
+          "electoral_votes": 15,
+          "population_proxy_house_seats": 13,
+          "support_percent": 52.0106,
+          "state_yes": true
+        },
+        {
+          "state": "MN",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 28.0246,
+          "state_yes": false
+        },
+        {
+          "state": "MS",
+          "profile": "security",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 17.1474,
+          "state_yes": false
+        },
+        {
+          "state": "MO",
+          "profile": "restraint",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 33.1959,
+          "state_yes": false
+        },
+        {
+          "state": "MT",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 6.3329,
+          "state_yes": false
+        },
+        {
+          "state": "NE",
+          "profile": "restraint",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 9.1709,
+          "state_yes": false
+        },
+        {
+          "state": "NV",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 14.7611,
+          "state_yes": false
+        },
+        {
+          "state": "NH",
+          "profile": "investment",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 7.3481,
+          "state_yes": false
+        },
+        {
+          "state": "NJ",
+          "profile": "social",
+          "electoral_votes": 14,
+          "population_proxy_house_seats": 12,
+          "support_percent": 45.7044,
+          "state_yes": false
+        },
+        {
+          "state": "NM",
+          "profile": "social",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 14.9551,
+          "state_yes": false
+        },
+        {
+          "state": "NY",
+          "profile": "social",
+          "electoral_votes": 28,
+          "population_proxy_house_seats": 26,
+          "support_percent": 76.8455,
+          "state_yes": true
+        },
+        {
+          "state": "NC",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 51.1584,
+          "state_yes": true
+        },
+        {
+          "state": "ND",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.3645,
+          "state_yes": false
+        },
+        {
+          "state": "OH",
+          "profile": "balanced",
+          "electoral_votes": 17,
+          "population_proxy_house_seats": 15,
+          "support_percent": 53.251,
+          "state_yes": true
+        },
+        {
+          "state": "OK",
+          "profile": "security",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 22.3786,
+          "state_yes": false
+        },
+        {
+          "state": "OR",
+          "profile": "investment",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 24.8653,
+          "state_yes": false
+        },
+        {
+          "state": "PA",
+          "profile": "balanced",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 57.8144,
+          "state_yes": true
+        },
+        {
+          "state": "RI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 8.5434,
+          "state_yes": false
+        },
+        {
+          "state": "SC",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 30.2978,
+          "state_yes": false
+        },
+        {
+          "state": "SD",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.3752,
+          "state_yes": false
+        },
+        {
+          "state": "TN",
+          "profile": "security",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 35.9754,
+          "state_yes": false
+        },
+        {
+          "state": "TX",
+          "profile": "security",
+          "electoral_votes": 40,
+          "population_proxy_house_seats": 38,
+          "support_percent": 83.2417,
+          "state_yes": true
+        },
+        {
+          "state": "UT",
+          "profile": "investment",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 19.133,
+          "state_yes": false
+        },
+        {
+          "state": "VT",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 3.2183,
+          "state_yes": false
+        },
+        {
+          "state": "VA",
+          "profile": "balanced",
+          "electoral_votes": 13,
+          "population_proxy_house_seats": 11,
+          "support_percent": 46.6243,
+          "state_yes": false
+        },
+        {
+          "state": "WA",
+          "profile": "investment",
+          "electoral_votes": 12,
+          "population_proxy_house_seats": 10,
+          "support_percent": 43.4258,
+          "state_yes": false
+        },
+        {
+          "state": "WV",
+          "profile": "security",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 6.6912,
+          "state_yes": false
+        },
+        {
+          "state": "WI",
+          "profile": "balanced",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 39.8243,
+          "state_yes": false
+        },
+        {
+          "state": "WY",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.6507,
+          "state_yes": false
+        }
+      ]
+    },
+    {
+      "scenario": "small_state_concentration",
+      "national_support_percent": 52.0,
+      "states_carried_of_50": 42,
+      "electoral_votes_yes_of_538": 316,
+      "rules": {
+        "national_popular_majority": true,
+        "majority_of_states": true,
+        "electoral_college_270": true,
+        "double_majority_popular_plus_states": true,
+        "strong_consensus_55_percent_plus_30_states": false
+      },
+      "territorial_veto_of_popular_majority": false,
+      "state_rows": [
+        {
+          "state": "AL",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 75.6606,
+          "state_yes": true
+        },
+        {
+          "state": "AK",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.8708,
+          "state_yes": true
+        },
+        {
+          "state": "AZ",
+          "profile": "balanced",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 65.6392,
+          "state_yes": true
+        },
+        {
+          "state": "AR",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 82.6745,
+          "state_yes": true
+        },
+        {
+          "state": "CA",
+          "profile": "social",
+          "electoral_votes": 54,
+          "population_proxy_house_seats": 52,
+          "support_percent": 15.2931,
+          "state_yes": false
+        },
+        {
+          "state": "CO",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 71.8123,
+          "state_yes": true
+        },
+        {
+          "state": "CT",
+          "profile": "social",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 82.9291,
+          "state_yes": true
+        },
+        {
+          "state": "DE",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.6371,
+          "state_yes": true
+        },
+        {
+          "state": "DC",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.8935,
+          "state_yes": true
+        },
+        {
+          "state": "FL",
+          "profile": "security",
+          "electoral_votes": 30,
+          "population_proxy_house_seats": 28,
+          "support_percent": 28.48,
+          "state_yes": false
+        },
+        {
+          "state": "GA",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 50.0136,
+          "state_yes": true
+        },
+        {
+          "state": "HI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 95.2768,
+          "state_yes": true
+        },
+        {
+          "state": "ID",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.5329,
+          "state_yes": true
+        },
+        {
+          "state": "IL",
+          "profile": "social",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 45.2406,
+          "state_yes": false
+        },
+        {
+          "state": "IN",
+          "profile": "restraint",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 66.2939,
+          "state_yes": true
+        },
+        {
+          "state": "IA",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 86.2471,
+          "state_yes": true
+        },
+        {
+          "state": "KS",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 86.9069,
+          "state_yes": true
+        },
+        {
+          "state": "KY",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 79.9484,
+          "state_yes": true
+        },
+        {
+          "state": "LA",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 82.976,
+          "state_yes": true
+        },
+        {
+          "state": "ME",
+          "profile": "balanced",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.294,
+          "state_yes": true
+        },
+        {
+          "state": "MD",
+          "profile": "social",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 72.3455,
+          "state_yes": true
+        },
+        {
+          "state": "MA",
+          "profile": "social",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 66.43,
+          "state_yes": true
+        },
+        {
+          "state": "MI",
+          "profile": "balanced",
+          "electoral_votes": 15,
+          "population_proxy_house_seats": 13,
+          "support_percent": 48.6846,
+          "state_yes": false
+        },
+        {
+          "state": "MN",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 69.2039,
+          "state_yes": true
+        },
+        {
+          "state": "MS",
+          "profile": "security",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 83.9647,
+          "state_yes": true
+        },
+        {
+          "state": "MO",
+          "profile": "restraint",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 71.0088,
+          "state_yes": true
+        },
+        {
+          "state": "MT",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.4586,
+          "state_yes": true
+        },
+        {
+          "state": "NE",
+          "profile": "restraint",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 91.8188,
+          "state_yes": true
+        },
+        {
+          "state": "NV",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 85.0301,
+          "state_yes": true
+        },
+        {
+          "state": "NH",
+          "profile": "investment",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.1204,
+          "state_yes": true
+        },
+        {
+          "state": "NJ",
+          "profile": "social",
+          "electoral_votes": 14,
+          "population_proxy_house_seats": 12,
+          "support_percent": 54.9701,
+          "state_yes": true
+        },
+        {
+          "state": "NM",
+          "profile": "social",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 90.6062,
+          "state_yes": true
+        },
+        {
+          "state": "NY",
+          "profile": "social",
+          "electoral_votes": 28,
+          "population_proxy_house_seats": 26,
+          "support_percent": 30.6115,
+          "state_yes": false
+        },
+        {
+          "state": "NC",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 56.6402,
+          "state_yes": true
+        },
+        {
+          "state": "ND",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.967,
+          "state_yes": true
+        },
+        {
+          "state": "OH",
+          "profile": "balanced",
+          "electoral_votes": 17,
+          "population_proxy_house_seats": 15,
+          "support_percent": 47.0329,
+          "state_yes": false
+        },
+        {
+          "state": "OK",
+          "profile": "security",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 83.3533,
+          "state_yes": true
+        },
+        {
+          "state": "OR",
+          "profile": "investment",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 78.9631,
+          "state_yes": true
+        },
+        {
+          "state": "PA",
+          "profile": "balanced",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 46.781,
+          "state_yes": false
+        },
+        {
+          "state": "RI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.6449,
+          "state_yes": true
+        },
+        {
+          "state": "SC",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 75.8015,
+          "state_yes": true
+        },
+        {
+          "state": "SD",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.6883,
+          "state_yes": true
+        },
+        {
+          "state": "TN",
+          "profile": "security",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 70.1018,
+          "state_yes": true
+        },
+        {
+          "state": "TX",
+          "profile": "security",
+          "electoral_votes": 40,
+          "population_proxy_house_seats": 38,
+          "support_percent": 17.314,
+          "state_yes": false
+        },
+        {
+          "state": "UT",
+          "profile": "investment",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 87.6375,
+          "state_yes": true
+        },
+        {
+          "state": "VT",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.9594,
+          "state_yes": true
+        },
+        {
+          "state": "VA",
+          "profile": "balanced",
+          "electoral_votes": 13,
+          "population_proxy_house_seats": 11,
+          "support_percent": 65.1492,
+          "state_yes": true
+        },
+        {
+          "state": "WA",
+          "profile": "investment",
+          "electoral_votes": 12,
+          "population_proxy_house_seats": 10,
+          "support_percent": 63.4443,
+          "state_yes": true
+        },
+        {
+          "state": "WV",
+          "profile": "security",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.6664,
+          "state_yes": true
+        },
+        {
+          "state": "WI",
+          "profile": "balanced",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 72.3237,
+          "state_yes": true
+        },
+        {
+          "state": "WY",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 98.0185,
+          "state_yes": true
+        }
+      ]
+    },
+    {
+      "scenario": "profile_polarization",
+      "national_support_percent": 52.0,
+      "states_carried_of_50": 21,
+      "electoral_votes_yes_of_538": 235,
+      "rules": {
+        "national_popular_majority": true,
+        "majority_of_states": false,
+        "electoral_college_270": false,
+        "double_majority_popular_plus_states": false,
+        "strong_consensus_55_percent_plus_30_states": false
+      },
+      "territorial_veto_of_popular_majority": true,
+      "state_rows": [
+        {
+          "state": "AL",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 28.8792,
+          "state_yes": false
+        },
+        {
+          "state": "AK",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 19.3174,
+          "state_yes": false
+        },
+        {
+          "state": "AZ",
+          "profile": "balanced",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 35.0098,
+          "state_yes": false
+        },
+        {
+          "state": "AR",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 13.722,
+          "state_yes": false
+        },
+        {
+          "state": "CA",
+          "profile": "social",
+          "electoral_votes": 54,
+          "population_proxy_house_seats": 52,
+          "support_percent": 80.8449,
+          "state_yes": true
+        },
+        {
+          "state": "CO",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 76.6998,
+          "state_yes": true
+        },
+        {
+          "state": "CT",
+          "profile": "social",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 79.7476,
+          "state_yes": true
+        },
+        {
+          "state": "DE",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 80.5481,
+          "state_yes": true
+        },
+        {
+          "state": "DC",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 82.631,
+          "state_yes": true
+        },
+        {
+          "state": "FL",
+          "profile": "security",
+          "electoral_votes": 30,
+          "population_proxy_house_seats": 28,
+          "support_percent": 32.1685,
+          "state_yes": false
+        },
+        {
+          "state": "GA",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 48.2639,
+          "state_yes": false
+        },
+        {
+          "state": "HI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 78.1471,
+          "state_yes": true
+        },
+        {
+          "state": "ID",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 21.0813,
+          "state_yes": false
+        },
+        {
+          "state": "IL",
+          "profile": "social",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 75.9019,
+          "state_yes": true
+        },
+        {
+          "state": "IN",
+          "profile": "restraint",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 15.2301,
+          "state_yes": false
+        },
+        {
+          "state": "IA",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 41.8232,
+          "state_yes": false
+        },
+        {
+          "state": "KS",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 18.6121,
+          "state_yes": false
+        },
+        {
+          "state": "KY",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 32.0575,
+          "state_yes": false
+        },
+        {
+          "state": "LA",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 26.1885,
+          "state_yes": false
+        },
+        {
+          "state": "ME",
+          "profile": "balanced",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 50.3397,
+          "state_yes": true
+        },
+        {
+          "state": "MD",
+          "profile": "social",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 77.4815,
+          "state_yes": true
+        },
+        {
+          "state": "MA",
+          "profile": "social",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 68.7347,
+          "state_yes": true
+        },
+        {
+          "state": "MI",
+          "profile": "balanced",
+          "electoral_votes": 15,
+          "population_proxy_house_seats": 13,
+          "support_percent": 48.0537,
+          "state_yes": false
+        },
+        {
+          "state": "MN",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 74.7262,
+          "state_yes": true
+        },
+        {
+          "state": "MS",
+          "profile": "security",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 30.1014,
+          "state_yes": false
+        },
+        {
+          "state": "MO",
+          "profile": "restraint",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 18.2069,
+          "state_yes": false
+        },
+        {
+          "state": "MT",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 19.1158,
+          "state_yes": false
+        },
+        {
+          "state": "NE",
+          "profile": "restraint",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 18.3702,
+          "state_yes": false
+        },
+        {
+          "state": "NV",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.7763,
+          "state_yes": true
+        },
+        {
+          "state": "NH",
+          "profile": "investment",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 76.6875,
+          "state_yes": true
+        },
+        {
+          "state": "NJ",
+          "profile": "social",
+          "electoral_votes": 14,
+          "population_proxy_house_seats": 12,
+          "support_percent": 82.7668,
+          "state_yes": true
+        },
+        {
+          "state": "NM",
+          "profile": "social",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 84.5981,
+          "state_yes": true
+        },
+        {
+          "state": "NY",
+          "profile": "social",
+          "electoral_votes": 28,
+          "population_proxy_house_seats": 26,
+          "support_percent": 78.6018,
+          "state_yes": true
+        },
+        {
+          "state": "NC",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 46.928,
+          "state_yes": false
+        },
+        {
+          "state": "ND",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 18.7234,
+          "state_yes": false
+        },
+        {
+          "state": "OH",
+          "profile": "balanced",
+          "electoral_votes": 17,
+          "population_proxy_house_seats": 15,
+          "support_percent": 44.6946,
+          "state_yes": false
+        },
+        {
+          "state": "OK",
+          "profile": "security",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 26.5239,
+          "state_yes": false
+        },
+        {
+          "state": "OR",
+          "profile": "investment",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 71.1891,
+          "state_yes": true
+        },
+        {
+          "state": "PA",
+          "profile": "balanced",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 40.8317,
+          "state_yes": false
+        },
+        {
+          "state": "RI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 75.9746,
+          "state_yes": true
+        },
+        {
+          "state": "SC",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 25.4904,
+          "state_yes": false
+        },
+        {
+          "state": "SD",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 22.3307,
+          "state_yes": false
+        },
+        {
+          "state": "TN",
+          "profile": "security",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 27.5135,
+          "state_yes": false
+        },
+        {
+          "state": "TX",
+          "profile": "security",
+          "electoral_votes": 40,
+          "population_proxy_house_seats": 38,
+          "support_percent": 29.1353,
+          "state_yes": false
+        },
+        {
+          "state": "UT",
+          "profile": "investment",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 64.6349,
+          "state_yes": true
+        },
+        {
+          "state": "VT",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 78.8873,
+          "state_yes": true
+        },
+        {
+          "state": "VA",
+          "profile": "balanced",
+          "electoral_votes": 13,
+          "population_proxy_house_seats": 11,
+          "support_percent": 48.4567,
+          "state_yes": false
+        },
+        {
+          "state": "WA",
+          "profile": "investment",
+          "electoral_votes": 12,
+          "population_proxy_house_seats": 10,
+          "support_percent": 68.6833,
+          "state_yes": true
+        },
+        {
+          "state": "WV",
+          "profile": "security",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 25.3415,
+          "state_yes": false
+        },
+        {
+          "state": "WI",
+          "profile": "balanced",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 50.1065,
+          "state_yes": true
+        },
+        {
+          "state": "WY",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 15.1159,
+          "state_yes": false
+        }
+      ]
+    },
+    {
+      "scenario": "large_state_plus_profile",
+      "national_support_percent": 52.0,
+      "states_carried_of_50": 12,
+      "electoral_votes_yes_of_538": 267,
+      "rules": {
+        "national_popular_majority": true,
+        "majority_of_states": false,
+        "electoral_college_270": false,
+        "double_majority_popular_plus_states": false,
+        "strong_consensus_55_percent_plus_30_states": false
+      },
+      "territorial_veto_of_popular_majority": true,
+      "state_rows": [
+        {
+          "state": "AL",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 18.9916,
+          "state_yes": false
+        },
+        {
+          "state": "AK",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.5041,
+          "state_yes": false
+        },
+        {
+          "state": "AZ",
+          "profile": "balanced",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 35.5479,
+          "state_yes": false
+        },
+        {
+          "state": "AR",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 10.3082,
+          "state_yes": false
+        },
+        {
+          "state": "CA",
+          "profile": "social",
+          "electoral_votes": 54,
+          "population_proxy_house_seats": 52,
+          "support_percent": 93.0782,
+          "state_yes": true
+        },
+        {
+          "state": "CO",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 58.5707,
+          "state_yes": true
+        },
+        {
+          "state": "CT",
+          "profile": "social",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 44.5511,
+          "state_yes": false
+        },
+        {
+          "state": "DE",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 20.7735,
+          "state_yes": false
+        },
+        {
+          "state": "DC",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 14.6622,
+          "state_yes": false
+        },
+        {
+          "state": "FL",
+          "profile": "security",
+          "electoral_votes": 30,
+          "population_proxy_house_seats": 28,
+          "support_percent": 66.0275,
+          "state_yes": true
+        },
+        {
+          "state": "GA",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 54.1854,
+          "state_yes": true
+        },
+        {
+          "state": "HI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 30.6996,
+          "state_yes": false
+        },
+        {
+          "state": "ID",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 3.9563,
+          "state_yes": false
+        },
+        {
+          "state": "IL",
+          "profile": "social",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 77.7967,
+          "state_yes": true
+        },
+        {
+          "state": "IN",
+          "profile": "restraint",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 15.6242,
+          "state_yes": false
+        },
+        {
+          "state": "IA",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 17.797,
+          "state_yes": false
+        },
+        {
+          "state": "KS",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 9.2592,
+          "state_yes": false
+        },
+        {
+          "state": "KY",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 15.2654,
+          "state_yes": false
+        },
+        {
+          "state": "LA",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 15.1311,
+          "state_yes": false
+        },
+        {
+          "state": "ME",
+          "profile": "balanced",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 11.1807,
+          "state_yes": false
+        },
+        {
+          "state": "MD",
+          "profile": "social",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 55.9824,
+          "state_yes": true
+        },
+        {
+          "state": "MA",
+          "profile": "social",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 59.6085,
+          "state_yes": true
+        },
+        {
+          "state": "MI",
+          "profile": "balanced",
+          "electoral_votes": 15,
+          "population_proxy_house_seats": 13,
+          "support_percent": 43.2179,
+          "state_yes": false
+        },
+        {
+          "state": "MN",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 48.3791,
+          "state_yes": false
+        },
+        {
+          "state": "MS",
+          "profile": "security",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 12.3074,
+          "state_yes": false
+        },
+        {
+          "state": "MO",
+          "profile": "restraint",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 16.6881,
+          "state_yes": false
+        },
+        {
+          "state": "MT",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 3.0116,
+          "state_yes": false
+        },
+        {
+          "state": "NE",
+          "profile": "restraint",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 6.4124,
+          "state_yes": false
+        },
+        {
+          "state": "NV",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 18.2529,
+          "state_yes": false
+        },
+        {
+          "state": "NH",
+          "profile": "investment",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 17.3216,
+          "state_yes": false
+        },
+        {
+          "state": "NJ",
+          "profile": "social",
+          "electoral_votes": 14,
+          "population_proxy_house_seats": 12,
+          "support_percent": 74.1279,
+          "state_yes": true
+        },
+        {
+          "state": "NM",
+          "profile": "social",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 38.394,
+          "state_yes": false
+        },
+        {
+          "state": "NY",
+          "profile": "social",
+          "electoral_votes": 28,
+          "population_proxy_house_seats": 26,
+          "support_percent": 84.5797,
+          "state_yes": true
+        },
+        {
+          "state": "NC",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 59.5184,
+          "state_yes": true
+        },
+        {
+          "state": "ND",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.3757,
+          "state_yes": false
+        },
+        {
+          "state": "OH",
+          "profile": "balanced",
+          "electoral_votes": 17,
+          "population_proxy_house_seats": 15,
+          "support_percent": 45.7958,
+          "state_yes": false
+        },
+        {
+          "state": "OK",
+          "profile": "security",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 18.6909,
+          "state_yes": false
+        },
+        {
+          "state": "OR",
+          "profile": "investment",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 40.0577,
+          "state_yes": false
+        },
+        {
+          "state": "PA",
+          "profile": "balanced",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 57.4183,
+          "state_yes": true
+        },
+        {
+          "state": "RI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 29.4968,
+          "state_yes": false
+        },
+        {
+          "state": "SC",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 23.0407,
+          "state_yes": false
+        },
+        {
+          "state": "SD",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 2.0091,
+          "state_yes": false
+        },
+        {
+          "state": "TN",
+          "profile": "security",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 26.1268,
+          "state_yes": false
+        },
+        {
+          "state": "TX",
+          "profile": "security",
+          "electoral_votes": 40,
+          "population_proxy_house_seats": 38,
+          "support_percent": 56.1419,
+          "state_yes": true
+        },
+        {
+          "state": "UT",
+          "profile": "investment",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 27.6162,
+          "state_yes": false
+        },
+        {
+          "state": "VT",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 12.1934,
+          "state_yes": false
+        },
+        {
+          "state": "VA",
+          "profile": "balanced",
+          "electoral_votes": 13,
+          "population_proxy_house_seats": 11,
+          "support_percent": 33.7718,
+          "state_yes": false
+        },
+        {
+          "state": "WA",
+          "profile": "investment",
+          "electoral_votes": 12,
+          "population_proxy_house_seats": 10,
+          "support_percent": 48.4789,
+          "state_yes": false
+        },
+        {
+          "state": "WV",
+          "profile": "security",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 9.9457,
+          "state_yes": false
+        },
+        {
+          "state": "WI",
+          "profile": "balanced",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 34.9121,
+          "state_yes": false
+        },
+        {
+          "state": "WY",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 1.6906,
+          "state_yes": false
+        }
+      ]
+    },
+    {
+      "scenario": "small_state_plus_profile",
+      "national_support_percent": 52.0,
+      "states_carried_of_50": 39,
+      "electoral_votes_yes_of_538": 320,
+      "rules": {
+        "national_popular_majority": true,
+        "majority_of_states": true,
+        "electoral_college_270": true,
+        "double_majority_popular_plus_states": true,
+        "strong_consensus_55_percent_plus_30_states": false
+      },
+      "territorial_veto_of_popular_majority": false,
+      "state_rows": [
+        {
+          "state": "AL",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 47.9407,
+          "state_yes": false
+        },
+        {
+          "state": "AK",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 83.9629,
+          "state_yes": true
+        },
+        {
+          "state": "AZ",
+          "profile": "balanced",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 61.6466,
+          "state_yes": true
+        },
+        {
+          "state": "AR",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 52.5555,
+          "state_yes": true
+        },
+        {
+          "state": "CA",
+          "profile": "social",
+          "electoral_votes": 54,
+          "population_proxy_house_seats": 52,
+          "support_percent": 35.8075,
+          "state_yes": false
+        },
+        {
+          "state": "CO",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 73.3084,
+          "state_yes": true
+        },
+        {
+          "state": "CT",
+          "profile": "social",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 83.7668,
+          "state_yes": true
+        },
+        {
+          "state": "DE",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.8636,
+          "state_yes": true
+        },
+        {
+          "state": "DC",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 97.8187,
+          "state_yes": true
+        },
+        {
+          "state": "FL",
+          "profile": "security",
+          "electoral_votes": 30,
+          "population_proxy_house_seats": 28,
+          "support_percent": 21.9807,
+          "state_yes": false
+        },
+        {
+          "state": "GA",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 45.9643,
+          "state_yes": false
+        },
+        {
+          "state": "HI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 94.2751,
+          "state_yes": true
+        },
+        {
+          "state": "ID",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 62.5154,
+          "state_yes": true
+        },
+        {
+          "state": "IL",
+          "profile": "social",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 68.0279,
+          "state_yes": true
+        },
+        {
+          "state": "IN",
+          "profile": "restraint",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 35.7926,
+          "state_yes": false
+        },
+        {
+          "state": "IA",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 82.9126,
+          "state_yes": true
+        },
+        {
+          "state": "KS",
+          "profile": "restraint",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 63.7731,
+          "state_yes": true
+        },
+        {
+          "state": "KY",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 58.6463,
+          "state_yes": true
+        },
+        {
+          "state": "LA",
+          "profile": "security",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 43.7257,
+          "state_yes": false
+        },
+        {
+          "state": "ME",
+          "profile": "balanced",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 85.4433,
+          "state_yes": true
+        },
+        {
+          "state": "MD",
+          "profile": "social",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 84.1221,
+          "state_yes": true
+        },
+        {
+          "state": "MA",
+          "profile": "social",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 87.7321,
+          "state_yes": true
+        },
+        {
+          "state": "MI",
+          "profile": "balanced",
+          "electoral_votes": 15,
+          "population_proxy_house_seats": 13,
+          "support_percent": 51.8313,
+          "state_yes": true
+        },
+        {
+          "state": "MN",
+          "profile": "investment",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 79.5463,
+          "state_yes": true
+        },
+        {
+          "state": "MS",
+          "profile": "security",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 74.5888,
+          "state_yes": true
+        },
+        {
+          "state": "MO",
+          "profile": "restraint",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 35.2309,
+          "state_yes": false
+        },
+        {
+          "state": "MT",
+          "profile": "restraint",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 67.1287,
+          "state_yes": true
+        },
+        {
+          "state": "NE",
+          "profile": "restraint",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 63.3175,
+          "state_yes": true
+        },
+        {
+          "state": "NV",
+          "profile": "balanced",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 74.5144,
+          "state_yes": true
+        },
+        {
+          "state": "NH",
+          "profile": "investment",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 93.5582,
+          "state_yes": true
+        },
+        {
+          "state": "NJ",
+          "profile": "social",
+          "electoral_votes": 14,
+          "population_proxy_house_seats": 12,
+          "support_percent": 75.3728,
+          "state_yes": true
+        },
+        {
+          "state": "NM",
+          "profile": "social",
+          "electoral_votes": 5,
+          "population_proxy_house_seats": 3,
+          "support_percent": 92.9721,
+          "state_yes": true
+        },
+        {
+          "state": "NY",
+          "profile": "social",
+          "electoral_votes": 28,
+          "population_proxy_house_seats": 26,
+          "support_percent": 55.3252,
+          "state_yes": true
+        },
+        {
+          "state": "NC",
+          "profile": "balanced",
+          "electoral_votes": 16,
+          "population_proxy_house_seats": 14,
+          "support_percent": 38.9719,
+          "state_yes": false
+        },
+        {
+          "state": "ND",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 85.0801,
+          "state_yes": true
+        },
+        {
+          "state": "OH",
+          "profile": "balanced",
+          "electoral_votes": 17,
+          "population_proxy_house_seats": 15,
+          "support_percent": 56.8209,
+          "state_yes": true
+        },
+        {
+          "state": "OK",
+          "profile": "security",
+          "electoral_votes": 7,
+          "population_proxy_house_seats": 5,
+          "support_percent": 72.3612,
+          "state_yes": true
+        },
+        {
+          "state": "OR",
+          "profile": "investment",
+          "electoral_votes": 8,
+          "population_proxy_house_seats": 6,
+          "support_percent": 81.4555,
+          "state_yes": true
+        },
+        {
+          "state": "PA",
+          "profile": "balanced",
+          "electoral_votes": 19,
+          "population_proxy_house_seats": 17,
+          "support_percent": 50.2409,
+          "state_yes": true
+        },
+        {
+          "state": "RI",
+          "profile": "social",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 95.4249,
+          "state_yes": true
+        },
+        {
+          "state": "SC",
+          "profile": "security",
+          "electoral_votes": 9,
+          "population_proxy_house_seats": 7,
+          "support_percent": 50.3361,
+          "state_yes": true
+        },
+        {
+          "state": "SD",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 79.9436,
+          "state_yes": true
+        },
+        {
+          "state": "TN",
+          "profile": "security",
+          "electoral_votes": 11,
+          "population_proxy_house_seats": 9,
+          "support_percent": 39.6757,
+          "state_yes": false
+        },
+        {
+          "state": "TX",
+          "profile": "security",
+          "electoral_votes": 40,
+          "population_proxy_house_seats": 38,
+          "support_percent": 14.8737,
+          "state_yes": false
+        },
+        {
+          "state": "UT",
+          "profile": "investment",
+          "electoral_votes": 6,
+          "population_proxy_house_seats": 4,
+          "support_percent": 89.9138,
+          "state_yes": true
+        },
+        {
+          "state": "VT",
+          "profile": "social",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 96.7429,
+          "state_yes": true
+        },
+        {
+          "state": "VA",
+          "profile": "balanced",
+          "electoral_votes": 13,
+          "population_proxy_house_seats": 11,
+          "support_percent": 46.8453,
+          "state_yes": false
+        },
+        {
+          "state": "WA",
+          "profile": "investment",
+          "electoral_votes": 12,
+          "population_proxy_house_seats": 10,
+          "support_percent": 77.7083,
+          "state_yes": true
+        },
+        {
+          "state": "WV",
+          "profile": "security",
+          "electoral_votes": 4,
+          "population_proxy_house_seats": 2,
+          "support_percent": 75.1727,
+          "state_yes": true
+        },
+        {
+          "state": "WI",
+          "profile": "balanced",
+          "electoral_votes": 10,
+          "population_proxy_house_seats": 8,
+          "support_percent": 62.9168,
+          "state_yes": true
+        },
+        {
+          "state": "WY",
+          "profile": "restraint",
+          "electoral_votes": 3,
+          "population_proxy_house_seats": 1,
+          "support_percent": 81.7308,
+          "state_yes": true
+        }
+      ]
+    }
+  ],
+  "formal_weight_diagnostics": {
+    "equal_state_weight_per_population_proxy_max_to_min_ratio": 52.0,
+    "electoral_weight_per_population_proxy_max_to_min_ratio": 2.888888888888889,
+    "interpretation": "Ratios compare formal territorial weight with a House-seat population proxy; they are not estimates of pivotal voting probability."
+  },
+  "limitations": [
+    "House seats are a population proxy, not current state population or turnout.",
+    "State support rates are synthetic and calibrated to the same national support target.",
+    "Electoral votes use winner-take-all aggregation for every jurisdiction, including Maine and Nebraska, solely as a rule comparator.",
+    "The experiment measures aggregation behavior, not voter preferences or constitutional validity."
+  ]
+}

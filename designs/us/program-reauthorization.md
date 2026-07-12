@@ -20,3 +20,7 @@ commitments.
 Termination should require a higher threshold than ordinary renewal when basic
 rights, vulnerable populations, long-term contracts, or system continuity are
 at stake.
+
+The companion `public-priority-renewal.md` separates voter control of outcomes
+and tradeoffs from technical implementation, and adds funding-flow, conflict,
+anti-capture, response, and implementation-audit requirements.

@@ -14,3 +14,7 @@ claim to represent public opinion.
 
 Every output must state its population model, preference assumptions, turnout
 model, information assumptions, aggregation rule, random seed, and limitations.
+
+The first implemented family is `consensus-rules/`, which holds national
+support fixed while changing geographic distribution and compares popular,
+state, electoral-weighted, double-majority, and stronger-consensus rules.
