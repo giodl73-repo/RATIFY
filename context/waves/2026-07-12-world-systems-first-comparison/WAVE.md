@@ -19,8 +19,8 @@ systems deserve depth packets for the U.S. consensus and reauthorization work.
 | Pulse | Purpose | Status |
 |---|---|---|
 | 01 | Establish roles and wave governance | complete |
-| 02 | Capture seven comparable institutional records | active |
-| 03 | Role-review transfer claims and select depth priorities | pending |
+| 02 | Capture seven comparable institutional records | complete |
+| 03 | Role-review transfer claims and select depth priorities | active |
 | 04 | Validate, close, and open the first simulation-transfer wave | pending |
 
 ## Decision gate

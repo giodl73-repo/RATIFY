@@ -1,0 +1,107 @@
+{
+  "record_family": "institution_comparison",
+  "version": "1.0",
+  "observed_date": "2026-07-12",
+  "status": "first_pass_rules_verified_outcomes_depth_pending",
+  "records": [
+    {
+      "jurisdiction": "Switzerland",
+      "level": "federal",
+      "mechanisms": ["popular constitutional initiative", "optional referendum", "mandatory constitutional referendum"],
+      "initiation": "100,000 valid signatures within 18 months for a constitutional initiative; 50,000 within 100 days or eight cantons for an optional referendum",
+      "vote_rule": "simple popular majority for optional referendums; popular majority plus canton majority for constitutional change",
+      "binding_status": "binding",
+      "institutional_bridge": "Federal Council and Parliament may make counterproposals; referendum-capable groups influence legislative drafting",
+      "observed_signal": "As of 2025, 237 federal popular initiatives had reached a vote and 26 were accepted; 219 optional referendums had been held and voters rejected 91 proposals",
+      "failure_or_equity_questions": ["canton majority gives territorial units unequal per-person weight", "frequent voting can produce participation and information burdens", "initiative text operates at constitutional level"],
+      "us_transfer_limit": "Swiss cantons, party bargaining, scale, and constitutional structure are not equivalent to U.S. states or Article V",
+      "source_ids": ["SRC-SWISS-BRIEF-GUIDE-2026"]
+    },
+    {
+      "jurisdiction": "Uruguay",
+      "level": "national",
+      "mechanisms": ["constitutional popular initiative", "rejective referendum"],
+      "initiation": "Constitutional reform may be initiated by 10 percent of registered citizens; rejective referendum and legislative initiative rules use much higher electorate thresholds",
+      "vote_rule": "constitutional proposals go to the electorate under constitutional approval rules",
+      "binding_status": "binding when constitutional requirements are met",
+      "institutional_bridge": "The General Assembly can consider and, in specified routes, place alternatives before voters",
+      "observed_signal": "National constitutional questions have been placed alongside general elections, including pension and search-authority proposals in 2024",
+      "failure_or_equity_questions": ["high signature thresholds favor organized national coalitions", "complex fiscal rules can be constitutionalized", "simultaneous election context can nationalize unrelated questions"],
+      "us_transfer_limit": "Compulsory voting, a unitary national electorate, and Uruguay's amendment procedures differ fundamentally from the U.S.",
+      "source_ids": ["SRC-URUGUAY-CONSTITUTION", "SRC-URUGUAY-ELECTORAL-COURT"]
+    },
+    {
+      "jurisdiction": "Ireland",
+      "level": "national",
+      "mechanisms": ["citizens assembly", "constitutional referendum"],
+      "initiation": "The Oireachtas establishes an assembly and terms of reference; constitutional change proceeds through the representative process and referendum",
+      "vote_rule": "Assembly recommendations are voted by members but remain advisory; voters decide constitutional amendments",
+      "binding_status": "assembly advisory; referendum binding for constitutional change",
+      "institutional_bridge": "A parliamentary committee and government publicly respond to assembly recommendations",
+      "observed_signal": "Assemblies use broadly representative random selection, expert and stakeholder evidence, facilitated deliberation, published votes, and public reports",
+      "failure_or_equity_questions": ["agenda remains institutionally controlled", "recommendations can be delayed or declined", "recruitment quality and attrition can affect legitimacy"],
+      "us_transfer_limit": "Ireland is smaller and unitary; its assembly model informs deliberation more directly than U.S. constitutional authority",
+      "source_ids": ["SRC-IRELAND-CITIZENS-ASSEMBLY-FAQ", "SRC-IRELAND-ASSEMBLY-2018-REPORT"]
+    },
+    {
+      "jurisdiction": "Italy",
+      "level": "national",
+      "mechanisms": ["abrogative referendum"],
+      "initiation": "500,000 voters or five Regional Councils may request total or partial repeal of a law or law-equivalent act",
+      "vote_rule": "a majority of eligible voters must participate and a majority of valid votes must approve",
+      "binding_status": "binding repeal",
+      "subject_exclusions": ["tax", "budget", "amnesty", "pardon", "treaty ratification"],
+      "institutional_bridge": "Legal admissibility and statutory implementation constrain the ballot",
+      "observed_signal": "The constitutional design provides a citizen veto rather than a general citizen power to enact statutes",
+      "failure_or_equity_questions": ["turnout quorum makes abstention a strategic no vote", "exclusions remove core fiscal decisions", "partial repeal can be difficult to explain"],
+      "us_transfer_limit": "The mechanism is most relevant to repeal design, not affirmative national citizen legislation or annual program renewal",
+      "source_ids": ["SRC-ITALY-CONSTITUTION-ARTICLE-75"]
+    },
+    {
+      "jurisdiction": "Taiwan",
+      "level": "Executive Yuan policy administration",
+      "mechanisms": ["online citizen proposal", "policy consultation"],
+      "initiation": "A citizen policy proposal within Executive Yuan jurisdiction becomes a response case after 5,000 verified supports within 60 days",
+      "vote_rule": "support threshold triggers consideration and response, not enactment",
+      "binding_status": "agenda and response right; nonbinding on policy outcome",
+      "institutional_bridge": "Responsible authorities contact the proposer, assess feasibility, may convene collaborative meetings, and publish a reasoned response within two months, extendable once",
+      "observed_signal": "Proposals, support, comments, responses, and status are retained on a public platform",
+      "failure_or_equity_questions": ["digital access and organized mobilization affect agenda access", "agency jurisdiction limits eligible proposals", "a response duty does not guarantee adoption"],
+      "us_transfer_limit": "Best compared with a federal petition-and-response layer, not a binding citizen chamber",
+      "source_ids": ["SRC-TAIWAN-NDC-PARTICIPATION-DIRECTIONS"]
+    },
+    {
+      "jurisdiction": "European Union",
+      "level": "supranational",
+      "mechanisms": ["European Citizens' Initiative"],
+      "initiation": "At least one million valid statements of support, including minimum thresholds in at least seven member states",
+      "vote_rule": "qualifying support triggers Commission examination and response rather than a popular vote",
+      "binding_status": "agenda and response right; nonbinding on legislation",
+      "institutional_bridge": "The European Commission evaluates the initiative within its legal competence and explains intended action or nonaction",
+      "observed_signal": "The geographic threshold explicitly requires cross-member-state organization",
+      "failure_or_equity_questions": ["high transnational coordination costs", "Commission agenda authority remains decisive", "signature success can be mistaken for legislative adoption"],
+      "us_transfer_limit": "Offers a geographic-support gate but not a model of binding state-weighted enactment",
+      "source_ids": ["SRC-EU-ECI-OFFICIAL"]
+    },
+    {
+      "jurisdiction": "United States",
+      "level": "states and territories",
+      "mechanisms": ["direct initiative", "indirect initiative", "popular referendum", "legislative referral"],
+      "initiation": "Rules vary; 24 states, the District of Columbia, and the U.S. Virgin Islands have an initiative process, generally using petition review, titles, signature collection, and verification",
+      "vote_rule": "usually a majority, with state-specific higher thresholds, subject rules, geographic requirements, and conflicting-measure rules",
+      "binding_status": "generally binding under state law, with varying legislative amendment restrictions",
+      "institutional_bridge": "Indirect initiatives first go to the legislature, which may enact the proposal or sometimes offer a competing measure",
+      "observed_signal": "No two state qualification systems are identical; single-subject, fiscal, title, signature, and geographic rules vary substantially",
+      "failure_or_equity_questions": ["paid signature and campaign markets advantage wealth", "ballot wording and complexity affect understanding", "constitutional initiatives can lock detailed policy into higher law", "geographic requirements can become legally or operationally defective"],
+      "us_transfer_limit": "State experience is directly relevant operationally but does not create federal initiative authority",
+      "source_ids": ["SRC-NCSL-INITIATIVE-REFERENDUM-2025"]
+    }
+  ],
+  "first_depth_priorities": [
+    {"system":"Switzerland","reason":"binding initiative, referendum, counterproposal, and true popular-plus-canton double majority"},
+    {"system":"Ireland","reason":"deliberative evidence layer before institutional and referendum action"},
+    {"system":"United States state systems","reason":"closest operational, legal, campaign, and administration evidence for American transfer"}
+  ],
+  "transfer_hypothesis": "The strongest initial U.S. design is likely a hybrid: Irish-style deliberative preparation, U.S.-state-style qualification and administration safeguards, and a separately tested Swiss-inspired double majority for only the highest-impact questions.",
+  "transfer_status": "hypothesis_requires_role_review_and_simulation"
+}
