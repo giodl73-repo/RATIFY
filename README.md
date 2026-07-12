@@ -49,6 +49,16 @@ A program review should offer more than “keep” or “abolish”:
 - `designs/us/` — proposed American mechanisms and legal pathways.
 - `experiments/` — reproducible synthetic simulations.
 - `docs/specs/` — evidence and experiment contracts.
+- `.roles/` — competing review lenses for evidence, legitimacy, rights,
+  deliberation, simulation, innovation, administration, and future citizens.
+- `context/waves/` — bounded learning waves and retained decision gates.
+
+## Innovation discipline
+
+RATIFY adapts RUNE's physical roles, parliament/stakeholder split, bounded
+waves, retained pulses, and future-user review. Its growth cycle rotates through
+breadth, depth, integration, and adversarial validation; every wave must name a
+learning target and the smallest falsifiable next experiment.
 
 ## Status
 
