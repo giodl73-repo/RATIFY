@@ -1,0 +1,41 @@
+{
+  "model_id": "ratify-voter-lab-correlation-v2",
+  "status": "synthetic_factor_prior_not_empirically_calibrated",
+  "base_mixture": "archetypes.v1.json",
+  "factors": ["analytical_engagement", "fiscal_attention", "institutional_orientation", "social_attention"],
+  "loadings": {
+    "outcome_orientation": [0.35, 0.10, 0.15, 0.00],
+    "pocketbook_sensitivity": [0.00, 0.45, 0.00, 0.10],
+    "fiscal_concern": [0.15, 0.60, 0.00, 0.00],
+    "risk_aversion": [-0.10, 0.15, 0.15, 0.10],
+    "status_quo_preference": [-0.10, 0.20, 0.25, 0.10],
+    "institutional_trust": [0.10, 0.00, 0.60, 0.10],
+    "anti_establishment": [0.00, 0.10, -0.60, 0.00],
+    "rights_concern": [0.20, 0.00, 0.20, 0.00],
+    "issue_concentration": [-0.10, 0.00, -0.05, 0.35],
+    "numeracy": [0.65, 0.10, 0.00, 0.00],
+    "social_susceptibility": [-0.15, 0.00, 0.00, 0.60],
+    "strategic_sophistication": [0.55, 0.10, -0.05, -0.10],
+    "participation_propensity": [0.25, 0.15, 0.25, 0.25],
+    "fatigue_sensitivity": [-0.30, 0.00, -0.05, 0.20]
+  },
+  "sampling": {
+    "factor_distribution": "independent standard normal latent factors",
+    "residual_distribution": "independent standard normal",
+    "trait_transform": "archetype mean plus archetype sd times factor-weighted shock and residual, clipped to zero_one",
+    "residual_variance": "one minus sum of squared loadings"
+  },
+  "declared_sign_checks": [
+    ["numeracy", "strategic_sophistication", "positive"],
+    ["fiscal_concern", "pocketbook_sensitivity", "positive"],
+    ["institutional_trust", "anti_establishment", "negative"],
+    ["social_susceptibility", "issue_concentration", "positive"],
+    ["numeracy", "fatigue_sensitivity", "negative"]
+  ],
+  "guardrails": [
+    "Loadings are synthetic structural hypotheses, not fitted correlations.",
+    "Archetypes remain mixture distributions rather than person categories.",
+    "Protected-group attributes are not inferred or generated.",
+    "Promotion requires bridge results and declared sign and invariant checks."
+  ]
+}

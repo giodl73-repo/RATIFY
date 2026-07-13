@@ -5,12 +5,14 @@ experiment-specific “personality” lists with versioned continuous traits,
 situational state, behavioral modules, institutional environments, and a
 calibration ladder.
 
-Version 1 contains synthetic priors only. It is not calibrated public opinion.
+Version 2 is the current internal model. It adds synthetic factor correlations
+and order decay; it remains uncalibrated and is not public opinion.
 
 Validate:
 
 ```powershell
 python experiments/voter-lab/validate.py
+python experiments/voter-lab/validate_v2.py
 ```
 
 ## Development loop

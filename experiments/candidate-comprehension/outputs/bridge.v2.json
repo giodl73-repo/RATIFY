@@ -1,0 +1,78 @@
+{
+  "experiment_id": "ratify-candidate-comprehension-v1-v2-bridge",
+  "status": "synthetic_model_bridge_not_human_validation",
+  "results": [
+    {
+      "model": "v1_independent",
+      "presentation": "neutral",
+      "card": "progressive_primary_balance",
+      "position_1_accuracy_percent": 56.11,
+      "position_2_accuracy_percent": 55.91,
+      "all_accuracy_percent": 56.01
+    },
+    {
+      "model": "v1_independent",
+      "presentation": "neutral",
+      "card": "protected_partial_path",
+      "position_1_accuracy_percent": 55.82,
+      "position_2_accuracy_percent": 56.19,
+      "all_accuracy_percent": 56.01
+    },
+    {
+      "model": "v1_independent",
+      "presentation": "layered_fact_check",
+      "card": "progressive_primary_balance",
+      "position_1_accuracy_percent": 71.84,
+      "position_2_accuracy_percent": 71.77,
+      "all_accuracy_percent": 71.8
+    },
+    {
+      "model": "v1_independent",
+      "presentation": "layered_fact_check",
+      "card": "protected_partial_path",
+      "position_1_accuracy_percent": 72.01,
+      "position_2_accuracy_percent": 71.86,
+      "all_accuracy_percent": 71.94
+    },
+    {
+      "model": "v2_correlated_order_decay",
+      "presentation": "neutral",
+      "card": "progressive_primary_balance",
+      "position_1_accuracy_percent": 55.8,
+      "position_2_accuracy_percent": 51.81,
+      "all_accuracy_percent": 53.81
+    },
+    {
+      "model": "v2_correlated_order_decay",
+      "presentation": "neutral",
+      "card": "protected_partial_path",
+      "position_1_accuracy_percent": 55.79,
+      "position_2_accuracy_percent": 51.38,
+      "all_accuracy_percent": 53.58
+    },
+    {
+      "model": "v2_correlated_order_decay",
+      "presentation": "layered_fact_check",
+      "card": "progressive_primary_balance",
+      "position_1_accuracy_percent": 71.91,
+      "position_2_accuracy_percent": 67.69,
+      "all_accuracy_percent": 69.79
+    },
+    {
+      "model": "v2_correlated_order_decay",
+      "presentation": "layered_fact_check",
+      "card": "protected_partial_path",
+      "position_1_accuracy_percent": 71.95,
+      "position_2_accuracy_percent": 67.66,
+      "all_accuracy_percent": 69.81
+    }
+  ],
+  "promotion": {
+    "declared_correlations_validated_separately": true,
+    "second_card_decay_observed_in_every_v2_cell": true,
+    "neutral_candidate_gap_percentage_points": 0.23,
+    "neutral_gap_within_limit": true,
+    "support_or_turnout_generated": false,
+    "criteria_pass": true
+  }
+}

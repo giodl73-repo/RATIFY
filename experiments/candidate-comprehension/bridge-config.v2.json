@@ -1,0 +1,23 @@
+{
+  "experiment_id": "ratify-candidate-comprehension-v1-v2-bridge",
+  "status": "synthetic_model_bridge_not_human_validation",
+  "agents_per_run": 5000,
+  "seeds": [8401, 8402, 8403, 8404, 8405],
+  "presentations": [
+    {"id":"neutral","fatigue":0.20,"design_bonus":0.00},
+    {"id":"layered_fact_check","fatigue":0.20,"design_bonus":0.16}
+  ],
+  "v2_modules": {
+    "correlated_traits": true,
+    "random_card_order": true,
+    "second_card_decay_base": 0.10,
+    "decay_scaling_trait": "fatigue_sensitivity"
+  },
+  "promotion_criteria": {
+    "all_invariants_pass": true,
+    "declared_correlation_signs_pass": true,
+    "second_card_accuracy_lower_than_first": true,
+    "neutral_candidate_gap_max_percentage_points": 2.0,
+    "no_support_or_turnout_output": true
+  }
+}
