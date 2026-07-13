@@ -1,0 +1,66 @@
+{
+  "schema_version": "ratify.closure_options.v1",
+  "id": "broad-shared-closure-options",
+  "status": "synthetic_construction_candidates_for_joint_scoring",
+  "common_package": [
+    "broad-shared-vat-credit.v1.json",
+    "broad-shared-emissions-dividend.v1.json",
+    "broad-shared-defense-path.v1.json",
+    "broad-shared-medicare-advantage.v1.json"
+  ],
+  "common_invariants": [
+    "all household, transition, workforce, rights, access, continuity, and appeal protections remain",
+    "administrative savings contribute zero to closure",
+    "the binding vote is Yes on one complete selected challenger or No on current law",
+    "construction-stage comparison among these options is not a binding multi-option ballot",
+    "a current joint score supersedes synthetic arithmetic before ballot qualification"
+  ],
+  "options": [
+    {
+      "id": "broader_contribution",
+      "fiscal_target": "primary_balance_by_2036",
+      "change_from_common_package": "raise the narrow VAT from 5.0 to 11.5 percent",
+      "credit_change": "raise the protected-consumption credit proportionally so it equals 11.5 percent of the protected allowance",
+      "central_synthetic_adjustment_billions": 5225.202,
+      "central_synthetic_gap_billions": 0.0,
+      "principal_exposure": "consumers and businesses administering the VAT, net of the scaled household credit",
+      "automatic_correction_corridor": {
+        "permitted_vat_rate_percent": [10.5, 12.5],
+        "credit_must_scale_with_rate": true,
+        "annual_rate_step_limit_percentage_points": 0.5,
+        "outside_corridor": "new legislation and ratification required"
+      }
+    },
+    {
+      "id": "progressive_closure",
+      "fiscal_target": "primary_balance_by_2036",
+      "change_from_common_package": "add a 3 percentage-point AGI surtax above $100,000 single and $200,000 joint, indexed, and tax foreign income of U.S. corporations currently at the full statutory rate",
+      "central_synthetic_adjustment_billions": 5377.985,
+      "central_synthetic_reserve_billions": 152.783,
+      "principal_exposure": "higher-income filers and owners, workers, and stakeholders of affected multinational corporations",
+      "automatic_correction_corridor": {
+        "permitted_agi_surtax_percentage_points": [2.5, 3.5],
+        "annual_rate_step_limit_percentage_points": 0.25,
+        "corporate_base_or_rate_change_automatic": false,
+        "outside_corridor": "new legislation and ratification required"
+      }
+    },
+    {
+      "id": "partial_fiscal_path",
+      "fiscal_target": "partial_adjustment_by_2036",
+      "change_from_common_package": "no additional tax or program change; adopt the lower fiscal target",
+      "central_synthetic_adjustment_billions": 3585.183,
+      "central_synthetic_amount_above_partial_target_billions": 848.172,
+      "first_order_2036_debt_percent_gdp": 113.592,
+      "primary_balance_comparison_debt_percent_gdp": 107.575,
+      "current_law_comparison_debt_percent_gdp": 120.210,
+      "principal_exposure": "future taxpayers and service users through higher debt and interest exposure than the primary-balance path",
+      "automatic_correction_corridor": {
+        "tax_or_service_change_automatic": false,
+        "use_central_excess_as_forecast_reserve": true,
+        "outside_corridor": "new legislation and ratification required"
+      }
+    }
+  ],
+  "qualification_rule": "No option qualifies for a public binding ballot until joint fiscal, distributional, service, legal, and implementation scores are published and any scored gap is closed within its voter-approved corridor or by newly ratified policy."
+}

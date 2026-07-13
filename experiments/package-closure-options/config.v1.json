@@ -1,0 +1,47 @@
+{
+  "experiment_id": "ratify-package-closure-options-v1",
+  "simulation_status": "synthetic_package_construction_not_score_or_public_opinion",
+  "base_results": "../joint-score-sensitivity/outputs/run.v1.json",
+  "targets_billions": {
+    "primary_balance": 5225.202,
+    "partial": 2737.011
+  },
+  "options": [
+    {
+      "id": "broader_contribution",
+      "label": "11.5% narrow VAT with scaled credit",
+      "target": "primary_balance",
+      "base_vat_rate_percent": 5.0,
+      "proposed_vat_rate_percent": 11.5,
+      "credit_rule": "protected-consumption credit rises proportionally with the VAT rate",
+      "added_component": "incremental VAT net of the scenario's credit, interaction, and implementation assumptions"
+    },
+    {
+      "id": "progressive_closure",
+      "label": "3-point high-threshold AGI surtax plus foreign corporate income reform",
+      "target": "primary_balance",
+      "agi_surtax": {
+        "published_two_point_2025_2034_billions": 1051.0,
+        "rate_multiplier": 1.5,
+        "window_factor": [0.90, 1.05, 1.20],
+        "behavior_interaction_retention": [0.75, 0.90, 1.00],
+        "source": "CBO 60938 scale anchor"
+      },
+      "foreign_corporate_income": {
+        "published_2025_2034_billions": 340.0,
+        "window_factor": [0.90, 1.05, 1.20],
+        "behavior_interaction_retention": [0.75, 0.85, 0.95],
+        "source": "CBO 60960 scale anchor"
+      }
+    },
+    {
+      "id": "partial_fiscal_path",
+      "label": "Existing protected package with partial fiscal target",
+      "target": "partial",
+      "fy2036_first_order_debt_percent_gdp": 113.592,
+      "comparison_primary_balance_path_debt_percent_gdp": 107.575,
+      "current_law_debt_percent_gdp": 120.210,
+      "source": "retained TAXLANE fiscal-path snapshot"
+    }
+  ]
+}

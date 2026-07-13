@@ -19,9 +19,9 @@ or hidden reductions in rights and continuity protections.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Specify closure arithmetic and invariants | active |
-| 02 | Build three complete candidate packages | pending |
-| 03 | Stress-test household, service, and regional effects | pending |
+| 01 | Specify closure arithmetic and invariants | complete |
+| 02 | Build three complete candidate packages | complete |
+| 03 | Stress-test household, service, and regional effects | active |
 | 04 | Select packages eligible for joint scoring and voter comprehension tests | pending |
 
 ## Decision gate

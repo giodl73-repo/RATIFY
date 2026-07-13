@@ -1,0 +1,136 @@
+{
+  "experiment_id": "ratify-package-closure-options-v1",
+  "simulation_status": "synthetic_package_construction_not_score_or_public_opinion",
+  "results": [
+    {
+      "scenario": "lower_fiscal_effect",
+      "option_id": "broader_contribution",
+      "label": "11.5% narrow VAT with scaled credit",
+      "target_path": "primary_balance",
+      "target_billions": 5225.202,
+      "base_adjustment_billions": 2624.844,
+      "added_adjustment_billions": {
+        "incremental_vat_billions": 1065.746
+      },
+      "total_adjustment_billions": 3690.59,
+      "gap_billions": 1534.612,
+      "meets_target_under_scenario": false
+    },
+    {
+      "scenario": "lower_fiscal_effect",
+      "option_id": "progressive_closure",
+      "label": "3-point high-threshold AGI surtax plus foreign corporate income reform",
+      "target_path": "primary_balance",
+      "target_billions": 5225.202,
+      "base_adjustment_billions": 2624.844,
+      "added_adjustment_billions": {
+        "agi_surtax_billions": 1064.138,
+        "foreign_corporate_income_billions": 229.5
+      },
+      "total_adjustment_billions": 3918.481,
+      "gap_billions": 1306.721,
+      "meets_target_under_scenario": false
+    },
+    {
+      "scenario": "lower_fiscal_effect",
+      "option_id": "partial_fiscal_path",
+      "label": "Existing protected package with partial fiscal target",
+      "target_path": "partial",
+      "target_billions": 2737.011,
+      "base_adjustment_billions": 2624.844,
+      "added_adjustment_billions": {
+        "policy_change_billions": 0.0
+      },
+      "total_adjustment_billions": 2624.844,
+      "gap_billions": 112.167,
+      "meets_target_under_scenario": false
+    },
+    {
+      "scenario": "central_synthetic",
+      "option_id": "broader_contribution",
+      "label": "11.5% narrow VAT with scaled credit",
+      "target_path": "primary_balance",
+      "target_billions": 5225.202,
+      "base_adjustment_billions": 3585.183,
+      "added_adjustment_billions": {
+        "incremental_vat_billions": 1640.057
+      },
+      "total_adjustment_billions": 5225.24,
+      "gap_billions": -0.038,
+      "meets_target_under_scenario": true
+    },
+    {
+      "scenario": "central_synthetic",
+      "option_id": "progressive_closure",
+      "label": "3-point high-threshold AGI surtax plus foreign corporate income reform",
+      "target_path": "primary_balance",
+      "target_billions": 5225.202,
+      "base_adjustment_billions": 3585.183,
+      "added_adjustment_billions": {
+        "agi_surtax_billions": 1489.793,
+        "foreign_corporate_income_billions": 303.45
+      },
+      "total_adjustment_billions": 5378.426,
+      "gap_billions": -153.224,
+      "meets_target_under_scenario": true
+    },
+    {
+      "scenario": "central_synthetic",
+      "option_id": "partial_fiscal_path",
+      "label": "Existing protected package with partial fiscal target",
+      "target_path": "partial",
+      "target_billions": 2737.011,
+      "base_adjustment_billions": 3585.183,
+      "added_adjustment_billions": {
+        "policy_change_billions": 0.0
+      },
+      "total_adjustment_billions": 3585.183,
+      "gap_billions": -848.172,
+      "meets_target_under_scenario": true
+    },
+    {
+      "scenario": "higher_fiscal_effect",
+      "option_id": "broader_contribution",
+      "label": "11.5% narrow VAT with scaled credit",
+      "target_path": "primary_balance",
+      "target_billions": 5225.202,
+      "base_adjustment_billions": 4698.381,
+      "added_adjustment_billions": {
+        "incremental_vat_billions": 2407.734
+      },
+      "total_adjustment_billions": 7106.115,
+      "gap_billions": -1880.913,
+      "meets_target_under_scenario": true
+    },
+    {
+      "scenario": "higher_fiscal_effect",
+      "option_id": "progressive_closure",
+      "label": "3-point high-threshold AGI surtax plus foreign corporate income reform",
+      "target_path": "primary_balance",
+      "target_billions": 5225.202,
+      "base_adjustment_billions": 4698.381,
+      "added_adjustment_billions": {
+        "agi_surtax_billions": 1891.8,
+        "foreign_corporate_income_billions": 387.6
+      },
+      "total_adjustment_billions": 6977.781,
+      "gap_billions": -1752.579,
+      "meets_target_under_scenario": true
+    },
+    {
+      "scenario": "higher_fiscal_effect",
+      "option_id": "partial_fiscal_path",
+      "label": "Existing protected package with partial fiscal target",
+      "target_path": "partial",
+      "target_billions": 2737.011,
+      "base_adjustment_billions": 4698.381,
+      "added_adjustment_billions": {
+        "policy_change_billions": 0.0
+      },
+      "total_adjustment_billions": 4698.381,
+      "gap_billions": -1961.37,
+      "meets_target_under_scenario": true
+    }
+  ],
+  "interpretation": "A package meeting a synthetic case is eligible for further review, not proven sufficient or popular."
+}
