@@ -1,0 +1,44 @@
+{
+  "schema_version": "ratify.candidate_scorecards.v1",
+  "status": "symmetric_synthetic_construction_cards_not_joint_scores",
+  "common_package": {
+    "starts": "2027",
+    "policy": ["5% narrow VAT with household credit", "$25 emissions charge with dividend and transition", "employer-health exclusion cap", "2-point capital-gains and dividend rate increase", "specified defense path", "10% Medicare Advantage benchmark reduction with continuity protections"],
+    "protections": "VAT credit, emissions dividend and transition, defense workforce transition, Medicare access and continuity, rights and appeals",
+    "administrative_savings_billions": 0,
+    "uncertainty": "formal joint fiscal, distributional, service, legal, and implementation scores pending"
+  },
+  "fields": ["marginal_change","principal_payers_or_exposure","fiscal_target","central_synthetic_result","lower_case_result","fy2036_debt_percent_gdp","correction_rule","outside_corridor","score_status"],
+  "cards": [
+    {
+      "id": "progressive_primary_balance",
+      "marginal_change": "add a 3-point AGI surtax above $100,000 single and $200,000 joint, indexed, plus full-rate current taxation of foreign income of U.S. corporations",
+      "principal_payers_or_exposure": "higher-income filers and affected multinational owners, workers, and stakeholders",
+      "fiscal_target": "primary balance by 2036",
+      "central_synthetic_result": "$5.378T adjustment, $153B above the $5.225T target",
+      "lower_case_result": "$3.918T adjustment, $1.307T below target",
+      "fy2036_debt_percent_gdp": 107.575,
+      "correction_rule": "surtax may move only between 2.5 and 3.5 points, no more than 0.25 point per year; corporate changes are not automatic",
+      "outside_corridor": "new legislation and ratification",
+      "score_status": "synthetic sensitivity; not independently scored"
+    },
+    {
+      "id": "protected_partial_path",
+      "marginal_change": "no additional tax or program change; choose the partial rather than primary-balance fiscal target",
+      "principal_payers_or_exposure": "future taxpayers and service users through higher debt and interest pressure",
+      "fiscal_target": "partial adjustment by 2036",
+      "central_synthetic_result": "$3.585T adjustment, $848B above the $2.737T target",
+      "lower_case_result": "$2.625T adjustment, $112B below target",
+      "fy2036_debt_percent_gdp": 113.592,
+      "correction_rule": "no automatic tax or service change; central excess serves only as forecast reserve",
+      "outside_corridor": "new legislation and ratification",
+      "score_status": "synthetic sensitivity; not independently scored"
+    }
+  ],
+  "comparison_baselines": {
+    "current_law_fy2036_debt_percent_gdp": 120.210,
+    "primary_balance_path_fy2036_debt_percent_gdp": 107.575,
+    "source": "retained TAXLANE first-order fiscal-path snapshot"
+  },
+  "presentation_rule": "Show the common package once, render every listed field in the same order and prominence, and randomize card order during comprehension testing."
+}

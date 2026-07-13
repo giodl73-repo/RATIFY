@@ -17,13 +17,17 @@ synthetic.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Build symmetric machine-readable scorecards | active |
-| 02 | Render plain-language construction cards | pending |
-| 03 | Run Voter Lab comprehension and framing stress | pending |
-| 04 | Revise cards and decide readiness for external review | pending |
+| 01 | Build symmetric machine-readable scorecards | complete |
+| 02 | Render plain-language construction cards | complete |
+| 03 | Run Voter Lab comprehension and framing stress | complete |
+| 04 | Revise cards and decide readiness for external review | complete |
 
 ## Decision gate
 
 Can differently situated synthetic readers identify who pays, the fiscal target,
 the debt tradeoff, uncertainty, and correction rule without systematic framing
 advantage or overload?
+
+**Decision:** The symmetric cards avoid modeled candidate advantage but overload
+too easily. Advance the layered card and optional fact check to human testing;
+do not treat synthetic recovery as validation or make the check a voting gate.

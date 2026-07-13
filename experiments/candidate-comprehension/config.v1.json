@@ -1,0 +1,32 @@
+{
+  "experiment_id": "ratify-candidate-comprehension-v1",
+  "status": "synthetic_information_recovery_not_public_opinion",
+  "voter_model": "../voter-lab/archetypes.v1.json",
+  "agents_per_run": 10000,
+  "seeds": [7301, 7302, 7303, 7304, 7305],
+  "cards": ["progressive_primary_balance", "protected_partial_path"],
+  "questions": ["principal_exposure", "fiscal_target", "debt", "correction_rule", "unscored_status"],
+  "scenarios": [
+    {"id":"neutral_low_fatigue","fatigue":0.20,"general_penalty":0.00,"targeted_penalties":{}},
+    {"id":"neutral_high_fatigue","fatigue":0.75,"general_penalty":0.00,"targeted_penalties":{}},
+    {"id":"layered_plain_language","fatigue":0.20,"general_penalty":-0.08,"targeted_penalties":{}},
+    {"id":"layered_with_fact_check","fatigue":0.20,"general_penalty":-0.16,"targeted_penalties":{}},
+    {"id":"progressive_favorable","fatigue":0.35,"general_penalty":0.02,"targeted_penalties":{"progressive_primary_balance":{"principal_exposure":0.16,"correction_rule":0.08}}},
+    {"id":"partial_favorable","fatigue":0.35,"general_penalty":0.02,"targeted_penalties":{"protected_partial_path":{"debt":0.16,"fiscal_target":0.08}}},
+    {"id":"overloaded","fatigue":0.85,"general_penalty":0.14,"targeted_penalties":{}}
+  ],
+  "probability_model": {
+    "intercept": 0.28,
+    "numeracy": 0.42,
+    "outcome_orientation": 0.12,
+    "institutional_trust": 0.06,
+    "fatigue_sensitivity": -0.28,
+    "question_difficulty": {"principal_exposure":0.04,"fiscal_target":0.02,"debt":0.08,"correction_rule":0.12,"unscored_status":0.03}
+  },
+  "guardrails": [
+    "No preference, turnout, approval, or election result is generated.",
+    "Trait sampling is independent and clipped in v1; correlations are disabled and retained as a known mismatch.",
+    "Framing penalties are stress parameters, not empirical persuasion effects.",
+    "Card order is randomized but order effects are disabled in v1."
+  ]
+}
