@@ -23,3 +23,7 @@ state, electoral-weighted, double-majority, and stronger-consensus rules.
 branding, paid advocacy, funding disclosure, evidence quality, and ballot
 overload. Its effect sizes are declared synthetic assumptions, not behavioral
 estimates.
+
+`balanced-ballot-aggregation/` compares methods for turning complete 100-point
+use-and-funding ballots into one fiscally closed challenger for later Yes/No
+ratification.

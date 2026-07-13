@@ -1,0 +1,110 @@
+{
+  "experiment_id": "balanced-ballot-aggregation-v1",
+  "simulation_status": "synthetic_aggregation_method_test_not_public_opinion",
+  "seed": 20260714,
+  "ballots": 6000,
+  "ballot_invariant": "uses_sum_100_and_funding_sum_100",
+  "columns": [
+    "health_security",
+    "income_retirement",
+    "public_investment",
+    "safety_government",
+    "progressive_revenue",
+    "broad_revenue",
+    "fees_contributions",
+    "spending_offsets"
+  ],
+  "methods": [
+    {
+      "method": "arithmetic_mean",
+      "uses_sum": 100.0,
+      "funding_sum": 100.0,
+      "fiscal_closure_gap": 0.0,
+      "mean_distance_to_ballots": 49.90596856043236,
+      "actual_cast_ballot": false,
+      "vector": [
+        25.517656707318096,
+        26.09519268712871,
+        23.81562170193178,
+        24.571528903621413,
+        27.476886224512516,
+        27.984592058020212,
+        18.875506083746604,
+        25.66301563372067
+      ]
+    },
+    {
+      "method": "fieldwise_median",
+      "uses_sum": 81.64952720634867,
+      "funding_sum": 85.64897715758369,
+      "fiscal_closure_gap": -3.9994499512350217,
+      "mean_distance_to_ballots": 51.4407249145363,
+      "actual_cast_ballot": false,
+      "vector": [
+        22.51783711425715,
+        22.70666863145272,
+        17.901355583800655,
+        18.52366587683814,
+        23.716366122667143,
+        24.99573001195477,
+        15.701046276566139,
+        21.23583474639564
+      ]
+    },
+    {
+      "method": "fieldwise_trimmed_mean_10_percent",
+      "uses_sum": 91.18936855189474,
+      "funding_sum": 92.4111981111986,
+      "fiscal_closure_gap": -1.2218295593038562,
+      "mean_distance_to_ballots": 50.28285390340735,
+      "actual_cast_ballot": false,
+      "vector": [
+        23.880811761341214,
+        24.33560029056672,
+        21.150039887335527,
+        21.822916612651284,
+        25.57950371556211,
+        26.295398857576693,
+        17.06918291191793,
+        23.467112626141866
+      ]
+    },
+    {
+      "method": "feasible_geometric_median",
+      "uses_sum": 100.00000000000001,
+      "funding_sum": 100.00000000000001,
+      "fiscal_closure_gap": 0.0,
+      "mean_distance_to_ballots": 49.9021668265392,
+      "actual_cast_ballot": false,
+      "vector": [
+        25.752957785452104,
+        26.28879216314574,
+        23.64945388474208,
+        24.308796166660088,
+        27.279345017662468,
+        27.84695410240993,
+        19.258390186386244,
+        25.615310693541367
+      ]
+    },
+    {
+      "method": "approximate_actual_ballot_medoid",
+      "uses_sum": 100.00000000000001,
+      "funding_sum": 100.0,
+      "fiscal_closure_gap": 1.4210854715202004e-14,
+      "mean_distance_to_ballots": 51.28031525406531,
+      "actual_cast_ballot": true,
+      "vector": [
+        34.084550327745525,
+        22.959312339615234,
+        26.144620176054534,
+        16.811517156584717,
+        29.534936296731868,
+        27.67595058037179,
+        19.321305489046168,
+        23.467807633850168
+      ]
+    }
+  ],
+  "interpretation_boundary": "Method comparison on synthetic balanced ballots; not a public preference estimate."
+}

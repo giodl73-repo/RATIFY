@@ -1,0 +1,16 @@
+{
+  "experiment_id": "balanced-ballot-aggregation-v1",
+  "seed": 20260714,
+  "ballots": 6000,
+  "outlier_probability": 0.06,
+  "uses": ["health_security", "income_retirement", "public_investment", "safety_government"],
+  "funding": ["progressive_revenue", "broad_revenue", "fees_contributions", "spending_offsets"],
+  "archetypes": [
+    {"id":"social_insurance","weight":0.24,"uses":[4.0,4.5,1.2,1.0],"funding":[3.5,2.2,1.3,1.0]},
+    {"id":"investment","weight":0.18,"uses":[1.8,1.4,5.0,1.3],"funding":[2.5,3.2,1.1,1.2]},
+    {"id":"security","weight":0.17,"uses":[1.5,1.7,1.1,5.0],"funding":[1.5,2.4,2.0,2.5]},
+    {"id":"fiscal_restraint","weight":0.18,"uses":[1.5,1.5,1.4,1.6],"funding":[1.4,1.8,1.4,4.5]},
+    {"id":"balanced","weight":0.23,"uses":[2.2,2.2,2.2,2.2],"funding":[2.2,2.2,2.2,2.2]}
+  ],
+  "simulation_status": "synthetic_aggregation_method_test_not_public_opinion"
+}
