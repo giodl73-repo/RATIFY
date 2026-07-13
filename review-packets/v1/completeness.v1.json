@@ -1,0 +1,14 @@
+{
+  "packet_id": "ratify-external-review-v1",
+  "internal_packet_complete": true,
+  "candidate_symmetry_validated": true,
+  "locked_common_inputs": 7,
+  "external_reviews_completed": false,
+  "unresolved_external_dependencies": [
+    "external reviewer availability and scope",
+    "a current baseline data release suitable for the requested window",
+    "program-level defense implementation detail beyond the high-level path",
+    "human-subject comprehension test governance and recruitment"
+  ],
+  "ballot_ready": false
+}

@@ -64,6 +64,7 @@ A program review should offer more than “keep” or “abolish”:
 - `designs/us/` — proposed American mechanisms and legal pathways.
 - `experiments/` — reproducible synthetic simulations.
 - `docs/specs/` — evidence and experiment contracts.
+- `review-packets/` — versioned, input-locked requests for external review.
 - `.roles/` — competing review lenses for evidence, legitimacy, rights,
   deliberation, simulation, innovation, administration, and future citizens.
 - `context/waves/` — bounded learning waves and retained decision gates.

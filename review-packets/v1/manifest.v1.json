@@ -1,0 +1,45 @@
+{
+  "packet_id": "ratify-external-review-v1",
+  "status": "request_for_independent_review_not_review_completed",
+  "baseline": "CBO February 2026 current law",
+  "window": {"start_fiscal_year": 2026, "end_fiscal_year": 2036},
+  "common_inputs": [
+    "designs/us/broad-shared-vat-credit.v1.json",
+    "designs/us/broad-shared-emissions-dividend.v1.json",
+    "designs/us/broad-shared-defense-path.v1.json",
+    "designs/us/broad-shared-medicare-advantage.v1.json",
+    "designs/us/broad-shared-closure-options.v1.json",
+    "designs/us/candidate-scorecards.v1.json",
+    "designs/us/joint-score-request.v1.json"
+  ],
+  "candidates": [
+    {
+      "id": "progressive_primary_balance",
+      "target": "primary balance by fiscal year 2036",
+      "marginal_policy": "3-point indexed AGI surtax above $100,000 single and $200,000 joint plus full-rate current taxation of foreign income of U.S. corporations",
+      "automatic_corridor": "surtax 2.5 to 3.5 points, maximum 0.25-point annual step; no automatic corporate change",
+      "outside_corridor": "new legislation and ratification"
+    },
+    {
+      "id": "protected_partial_path",
+      "target": "partial adjustment by fiscal year 2036",
+      "marginal_policy": "no additional tax or program change beyond the common package",
+      "automatic_corridor": "no automatic tax or service change",
+      "outside_corridor": "new legislation and ratification"
+    }
+  ],
+  "required_scenarios": ["central_conventional", "lower_fiscal_effect", "higher_fiscal_effect", "macroeconomic_feedback"],
+  "required_annual_fiscal_fields": ["gross_revenue_by_provision", "income_payroll_offsets", "refundable_credits", "household_dividends", "transition_payments", "primary_outlay_change_by_provision", "implementation_cost", "interaction_adjustment", "total_primary_adjustment", "incremental_net_interest", "total_deficit_effect", "debt_held_by_public", "debt_percent_gdp"],
+  "required_distribution_dimensions": ["income", "age", "family_type", "state_region", "urban_rural", "industry", "worker_employer_owner", "beneficiary_health_status_where_applicable"],
+  "required_service_domains": ["medicare_access_quality_continuity", "defense_capability_readiness_workforce", "energy_affordability_dividend_transition", "tax_administration_and_payment_delivery", "state_local_tribal_territorial_and_rural_effects"],
+  "required_interactions": ["vat_price_wage_profit_income_and_payroll_offsets", "vat_credit_and_emissions_dividend", "emissions_price_and_tax_interactions", "employer_health_exclusion_and_agi_surtax", "capital_gains_realization", "foreign_corporate_income_and_other_tax_rules", "medicare_advantage_enrollment_part_b_and_original_medicare", "defense_workforce_contract_and_regional_effects", "debt_and_interest_feedback"],
+  "return_formats": {
+    "fiscal": "annual machine-readable table plus methods report",
+    "distribution": "machine-readable cells with disclosure controls plus methods report",
+    "service": "domain metrics, thresholds, failure findings, and dissent",
+    "legal": "question-by-question authority, risk, remedy, and unresolved issue",
+    "implementation": "critical path, owner, dependency, cost, capacity, and failure mode"
+  },
+  "comparison_rules": ["use identical baseline, window, GDP, interest, incidence, implementation, and uncertainty conventions", "score current law as the complete No case", "do not use administrative savings as a balancing item", "do not waive rights or continuity floors to close a gap", "report candidate results in symmetric fields and precision"],
+  "known_dependencies": ["external reviewer availability and scope", "a current baseline data release suitable for the requested window", "program-level defense implementation detail beyond the high-level path", "human-subject comprehension test governance and recruitment"]
+}

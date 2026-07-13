@@ -1,0 +1,34 @@
+{
+  "packet_id": "ratify-external-review-v1",
+  "manifest": "review-packets/v1/manifest.v1.json",
+  "inputs": [
+    {
+      "path": "designs/us/broad-shared-vat-credit.v1.json",
+      "sha256": "3a6633610846cc7117a33e199dc2d281553044e7b10df5185b4d19ea719f6a03"
+    },
+    {
+      "path": "designs/us/broad-shared-emissions-dividend.v1.json",
+      "sha256": "b048f69817bfaea82b2d255c07e342fc0e75cf74a67148ac3717634bc311d52e"
+    },
+    {
+      "path": "designs/us/broad-shared-defense-path.v1.json",
+      "sha256": "02c2aebbcd0b9a47d80039ce9d4d432ca7b1a99ed45cab234609656ca0533f2d"
+    },
+    {
+      "path": "designs/us/broad-shared-medicare-advantage.v1.json",
+      "sha256": "7efcc2cd6557644b3eef13e59e17be5d8d806224d8544e016c6cec6691149c56"
+    },
+    {
+      "path": "designs/us/broad-shared-closure-options.v1.json",
+      "sha256": "7df777fcc438518eb54260f5db9b7b19622da90febe3aa5c0550587f8e5006c0"
+    },
+    {
+      "path": "designs/us/candidate-scorecards.v1.json",
+      "sha256": "276836c33f14f32a85375404c534603e6ba6f3cd2fcbd60fcba6c6cda1b5d086"
+    },
+    {
+      "path": "designs/us/joint-score-request.v1.json",
+      "sha256": "4d55903b07d62c41acb549888118b8e988943f0b6ba15a4b12333fe75842ccb2"
+    }
+  ]
+}

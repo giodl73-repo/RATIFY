@@ -11,13 +11,16 @@ choose missing assumptions.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Build candidate-specific scoring manifests | active |
-| 02 | Build nonfiscal and legal review manifests | pending |
-| 03 | Specify human comprehension protocol and acceptance criteria | pending |
-| 04 | Audit packet completeness and publish unresolved dependencies | pending |
+| 01 | Build candidate-specific scoring manifests | complete |
+| 02 | Build nonfiscal and legal review manifests | complete |
+| 03 | Specify human comprehension protocol and acceptance criteria | complete |
+| 04 | Audit packet completeness and publish unresolved dependencies | complete |
 
 ## Decision gate
 
 Could an external reviewer reproduce the common package, isolate each marginal
 choice, identify every required output, and return findings in a form suitable
 for symmetric voter disclosure?
+
+**Decision:** Yes. The internal packet is complete and input-locked. No external
+review has occurred, so neither candidate is ballot-ready.
