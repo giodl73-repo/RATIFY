@@ -1,0 +1,263 @@
+{
+  "experiment_id": "capture-framing-fiscally-closed-renewal-v1",
+  "simulation_status": "synthetic_parameterized_sensitivity_not_behavioral_evidence",
+  "seed": 20260713,
+  "runs": 20,
+  "voters_per_run": 50000,
+  "packages_fiscally_closed": true,
+  "treatments": [
+    {
+      "treatment": "outcome_first_full_evidence",
+      "package_share_percent": {
+        "status_quo": {
+          "mean": 62.267399999999995,
+          "min": 61.744,
+          "max": 62.64999999999999
+        },
+        "outcome_reform": {
+          "mean": 6.914199999999999,
+          "min": 6.67,
+          "max": 7.148000000000001
+        },
+        "provider_consolidation": {
+          "mean": 0.36219999999999997,
+          "min": 0.322,
+          "max": 0.41000000000000003
+        },
+        "corrective_period": {
+          "mean": 30.456200000000003,
+          "min": 29.914,
+          "max": 30.938
+        }
+      },
+      "evidence_optimal_choice_percent": {
+        "mean": 65.6491,
+        "min": 65.212,
+        "max": 66.254
+      },
+      "choice_changed_from_evidence_percent": {
+        "mean": 34.3509,
+        "min": 33.745999999999995,
+        "max": 34.788000000000004
+      },
+      "mean_evidence_utility_regret": {
+        "mean": 0.0833155986666729,
+        "min": 0.08126306000000587,
+        "max": 0.08462571333333996
+      },
+      "status_quo_change_vs_neutral_pp": 0.0,
+      "sponsor_change_vs_neutral_pp": 0.0
+    },
+    {
+      "treatment": "incumbent_brand_first",
+      "package_share_percent": {
+        "status_quo": {
+          "mean": 77.3599,
+          "min": 77.012,
+          "max": 77.63799999999999
+        },
+        "outcome_reform": {
+          "mean": 4.8786000000000005,
+          "min": 4.704,
+          "max": 5.12
+        },
+        "provider_consolidation": {
+          "mean": 0.35419999999999996,
+          "min": 0.322,
+          "max": 0.388
+        },
+        "corrective_period": {
+          "mean": 17.4073,
+          "min": 17.124,
+          "max": 17.706
+        }
+      },
+      "evidence_optimal_choice_percent": {
+        "mean": 73.088,
+        "min": 72.81800000000001,
+        "max": 73.63
+      },
+      "choice_changed_from_evidence_percent": {
+        "mean": 26.912,
+        "min": 26.369999999999997,
+        "max": 27.182000000000002
+      },
+      "mean_evidence_utility_regret": {
+        "mean": 0.05221814733333781,
+        "min": 0.05105353333333761,
+        "max": 0.05348221333333775
+      },
+      "status_quo_change_vs_neutral_pp": 15.092500000000001,
+      "sponsor_change_vs_neutral_pp": -0.008000000000000007
+    },
+    {
+      "treatment": "paid_advocacy_funding_hidden",
+      "package_share_percent": {
+        "status_quo": {
+          "mean": 53.50070000000001,
+          "min": 53.012,
+          "max": 54.08
+        },
+        "outcome_reform": {
+          "mean": 7.2079,
+          "min": 7.04,
+          "max": 7.402
+        },
+        "provider_consolidation": {
+          "mean": 11.415600000000001,
+          "min": 11.176,
+          "max": 11.602
+        },
+        "corrective_period": {
+          "mean": 27.875799999999998,
+          "min": 27.534,
+          "max": 28.264
+        }
+      },
+      "evidence_optimal_choice_percent": {
+        "mean": 55.623599999999996,
+        "min": 55.17999999999999,
+        "max": 56.15599999999999
+      },
+      "choice_changed_from_evidence_percent": {
+        "mean": 44.376400000000004,
+        "min": 43.844,
+        "max": 44.82
+      },
+      "mean_evidence_utility_regret": {
+        "mean": 0.2053916963333422,
+        "min": 0.20318685333334383,
+        "max": 0.20868126666667466
+      },
+      "status_quo_change_vs_neutral_pp": -8.766699999999986,
+      "sponsor_change_vs_neutral_pp": 11.053400000000002
+    },
+    {
+      "treatment": "paid_advocacy_funding_disclosed",
+      "package_share_percent": {
+        "status_quo": {
+          "mean": 56.4175,
+          "min": 56.077999999999996,
+          "max": 56.748
+        },
+        "outcome_reform": {
+          "mean": 8.2635,
+          "min": 8.06,
+          "max": 8.55
+        },
+        "provider_consolidation": {
+          "mean": 4.9866,
+          "min": 4.702,
+          "max": 5.176
+        },
+        "corrective_period": {
+          "mean": 30.3324,
+          "min": 30.105999999999998,
+          "max": 30.578
+        }
+      },
+      "evidence_optimal_choice_percent": {
+        "mean": 58.789,
+        "min": 58.489999999999995,
+        "max": 59.30800000000001
+      },
+      "choice_changed_from_evidence_percent": {
+        "mean": 41.211,
+        "min": 40.692,
+        "max": 41.510000000000005
+      },
+      "mean_evidence_utility_regret": {
+        "mean": 0.14800460400001847,
+        "min": 0.14510060666668578,
+        "max": 0.15035037333335247
+      },
+      "status_quo_change_vs_neutral_pp": -5.849899999999998,
+      "sponsor_change_vs_neutral_pp": 4.6244000000000005
+    },
+    {
+      "treatment": "weak_evidence",
+      "package_share_percent": {
+        "status_quo": {
+          "mean": 52.5899,
+          "min": 52.124,
+          "max": 53.12
+        },
+        "outcome_reform": {
+          "mean": 13.397,
+          "min": 13.134,
+          "max": 13.719999999999999
+        },
+        "provider_consolidation": {
+          "mean": 5.3241,
+          "min": 5.06,
+          "max": 5.464
+        },
+        "corrective_period": {
+          "mean": 28.689,
+          "min": 28.282,
+          "max": 29.115999999999996
+        }
+      },
+      "evidence_optimal_choice_percent": {
+        "mean": 51.31570000000001,
+        "min": 50.897999999999996,
+        "max": 51.722
+      },
+      "choice_changed_from_evidence_percent": {
+        "mean": 48.68429999999999,
+        "min": 48.278,
+        "max": 49.102000000000004
+      },
+      "mean_evidence_utility_regret": {
+        "mean": 0.20705704700001032,
+        "min": 0.2034558800000112,
+        "max": 0.2106700066666769
+      },
+      "status_quo_change_vs_neutral_pp": -9.677499999999995,
+      "sponsor_change_vs_neutral_pp": 4.9619
+    },
+    {
+      "treatment": "ballot_overload",
+      "package_share_percent": {
+        "status_quo": {
+          "mean": 54.3078,
+          "min": 53.966,
+          "max": 54.620000000000005
+        },
+        "outcome_reform": {
+          "mean": 13.678700000000001,
+          "min": 13.447999999999999,
+          "max": 13.938
+        },
+        "provider_consolidation": {
+          "mean": 6.7944,
+          "min": 6.554,
+          "max": 6.952
+        },
+        "corrective_period": {
+          "mean": 25.2191,
+          "min": 24.842,
+          "max": 25.598
+        }
+      },
+      "evidence_optimal_choice_percent": {
+        "mean": 50.7804,
+        "min": 50.166,
+        "max": 51.09
+      },
+      "choice_changed_from_evidence_percent": {
+        "mean": 49.2196,
+        "min": 48.91,
+        "max": 49.834
+      },
+      "mean_evidence_utility_regret": {
+        "mean": 0.2299919496666715,
+        "min": 0.22644702666667305,
+        "max": 0.23283586000000223
+      },
+      "status_quo_change_vs_neutral_pp": -7.959599999999995,
+      "sponsor_change_vs_neutral_pp": 6.432200000000001
+    }
+  ],
+  "interpretation_boundary": "Differences are consequences of declared synthetic parameters, not estimated real-world persuasion effects."
+}

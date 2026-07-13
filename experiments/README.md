@@ -18,3 +18,8 @@ model, information assumptions, aggregation rule, random seed, and limitations.
 The first implemented family is `consensus-rules/`, which holds national
 support fixed while changing geographic distribution and compares popular,
 state, electoral-weighted, double-majority, and stronger-consensus rules.
+
+`capture-framing/` holds fiscally closed packages fixed while varying incumbent
+branding, paid advocacy, funding disclosure, evidence quality, and ballot
+overload. Its effect sizes are declared synthetic assumptions, not behavioral
+estimates.

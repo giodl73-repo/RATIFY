@@ -1,0 +1,29 @@
+{
+  "experiment_id": "capture-framing-fiscally-closed-renewal-v1",
+  "seed": 20260713,
+  "voters_per_run": 50000,
+  "runs": 20,
+  "packages": [
+    {"id":"status_quo","label":"Current Program","outcome_score":55,"continuity_score":95,"implementation_risk":5,"household_burden_index":42,"uses":{"program":82,"administration":10,"transition":0,"reserve":3,"debt_service":5},"funding":{"taxes":55,"fees":5,"offsets":10,"borrowing":30}},
+    {"id":"outcome_reform","label":"Outcome Contract","outcome_score":70,"continuity_score":78,"implementation_risk":22,"household_burden_index":45,"uses":{"program":78,"administration":6,"transition":6,"reserve":5,"debt_service":2},"funding":{"taxes":62,"fees":5,"offsets":25,"borrowing":5}},
+    {"id":"provider_consolidation","label":"Provider Consolidation","outcome_score":66,"continuity_score":70,"implementation_risk":30,"household_burden_index":38,"uses":{"program":70,"administration":5,"transition":10,"reserve":7,"debt_service":1},"funding":{"taxes":53,"fees":5,"offsets":30,"borrowing":5}},
+    {"id":"corrective_period","label":"Corrective Performance Period","outcome_score":63,"continuity_score":88,"implementation_risk":12,"household_burden_index":43,"uses":{"program":80,"administration":8,"transition":3,"reserve":5,"debt_service":3},"funding":{"taxes":59,"fees":5,"offsets":20,"borrowing":15}}
+  ],
+  "archetypes": [
+    {"id":"outcome_focused","weight":0.25,"outcome":1.5,"continuity":0.5,"risk":0.7,"burden":0.7,"skepticism":0.5,"familiarity":0.2},
+    {"id":"continuity_focused","weight":0.18,"outcome":0.7,"continuity":1.5,"risk":1.2,"burden":0.5,"skepticism":0.3,"familiarity":1.0},
+    {"id":"fiscal_restraint","weight":0.18,"outcome":0.7,"continuity":0.5,"risk":0.8,"burden":1.5,"skepticism":0.8,"familiarity":0.2},
+    {"id":"institution_trusting","weight":0.14,"outcome":1.0,"continuity":0.8,"risk":0.7,"burden":0.6,"skepticism":0.1,"familiarity":0.8},
+    {"id":"capture_skeptic","weight":0.15,"outcome":1.0,"continuity":0.6,"risk":0.8,"burden":0.8,"skepticism":1.6,"familiarity":0.1},
+    {"id":"mixed_low_information","weight":0.10,"outcome":0.7,"continuity":0.7,"risk":0.6,"burden":0.6,"skepticism":0.4,"familiarity":0.8}
+  ],
+  "treatments": [
+    {"id":"outcome_first_full_evidence","noise":0.35,"status_quo_bonus":0.0,"incumbent_brand_bonus":0.0,"sponsor_package":null,"campaign_exposure":0.0,"funding_disclosed":true},
+    {"id":"incumbent_brand_first","noise":0.40,"status_quo_bonus":0.15,"incumbent_brand_bonus":0.45,"sponsor_package":null,"campaign_exposure":0.0,"funding_disclosed":true},
+    {"id":"paid_advocacy_funding_hidden","noise":0.45,"status_quo_bonus":0.0,"incumbent_brand_bonus":0.0,"sponsor_package":"provider_consolidation","campaign_exposure":0.65,"funding_disclosed":false},
+    {"id":"paid_advocacy_funding_disclosed","noise":0.45,"status_quo_bonus":0.0,"incumbent_brand_bonus":0.0,"sponsor_package":"provider_consolidation","campaign_exposure":0.65,"funding_disclosed":true},
+    {"id":"weak_evidence","noise":0.90,"status_quo_bonus":0.20,"incumbent_brand_bonus":0.0,"sponsor_package":null,"campaign_exposure":0.0,"funding_disclosed":true},
+    {"id":"ballot_overload","noise":1.20,"status_quo_bonus":0.50,"incumbent_brand_bonus":0.0,"sponsor_package":null,"campaign_exposure":0.0,"funding_disclosed":true}
+  ],
+  "model_status": "synthetic_parameterized_sensitivity_not_behavioral_evidence"
+}
