@@ -1,0 +1,62 @@
+{
+  "record_id": "ratify-primary-balance-revenue-variants-v1",
+  "target_path": "primary_balance",
+  "total_adjustment_2026_2036_billions": 5225.202,
+  "score_status": "specification_for_joint_score_not_scored_package",
+  "common_rules": {
+    "effective_date": "2027-01-01 unless the scorer requires a different administrable date",
+    "expiration": "none; reviewed in 2032 with no automatic lapse before replacement financing exists",
+    "indexing": "all dollar thresholds indexed after enactment using the same index specified in legislative text",
+    "administration_savings_assumed_billions": 0,
+    "taxpayer_protection": "no retroactive liability; plain annual household statement; hardship and error appeal",
+    "score_request": "annual 2026-2036 conventional, behavioral, interaction, implementation, distribution, macroeconomic, interest, deficit, and debt effects on the February 2026 CBO baseline"
+  },
+  "variants": [
+    {
+      "id": "progressive_heavy",
+      "revenue_share_of_adjustment_percent": 85,
+      "revenue_target_2026_2036_billions": 4441.422,
+      "primary_outlay_share_percent": 15,
+      "instruments": [
+        {"id":"agi_surtax_high_threshold","specification":"2 percentage points on AGI above $100,000 single and $200,000 joint, inflation indexed","cbo_2025_2034_billions":1051.0,"source":"CBO 60938"},
+        {"id":"itemized_deduction_15_percent_benefit_cap","specification":"limit federal tax benefit of all itemized deductions to 15 percent of deduction value; remove Pease limitation as in CBO option","cbo_2025_2034_billions":1909.8,"source":"CBO 60939"},
+        {"id":"employment_health_exclusion_75th_percentile","specification":"limit income and payroll tax exclusion to the 75th percentile of premiums, modified by the protection rules below","cbo_2025_2034_billions":697.0,"source":"CBO 60953 range; exact updated score required"},
+        {"id":"foreign_corporate_income_full_rate","specification":"tax all foreign income of U.S. corporations immediately at the full statutory corporate rate using CBO option definitions","cbo_2025_2034_billions":340.0,"source":"CBO 60960"},
+        {"id":"capital_gains_dividends_two_points","specification":"raise the 0, 15, and 20 percent long-term capital-gains and qualified-dividend rates to 2, 17, and 22 percent","cbo_2025_2034_billions":103.3,"source":"CBO 60940"}
+      ],
+      "published_individual_score_arithmetic_billions":4101.1,
+      "protections_requiring_rescore":["geographic and age-risk adjustment to the employer-health premium cap","transition protection for collectively bargained plans","coordination across surtax, deductions, health exclusion, capital gains, and corporate rules"],
+      "principal_burden":"higher-income individual filers, itemizers, workers with higher-premium plans, and owners and stakeholders of affected corporations"
+    },
+    {
+      "id": "broad_shared_contribution",
+      "revenue_share_of_adjustment_percent": 73,
+      "revenue_target_2026_2036_billions": 3814.397,
+      "primary_outlay_share_percent": 27,
+      "instruments": [
+        {"id":"vat_five_percent_narrow_base","specification":"5 percent VAT excluding existing housing, new residential housing, home-consumed food, health care, primary, secondary and postsecondary education, specified government and nonprofit services, and implicit-fee financial services","cbo_2025_2034_billions":2180.0,"source":"CBO 60961"},
+        {"id":"emissions_tax_25_two_percent_real_growth","specification":"$25 per metric ton on covered energy-related CO2 and specified large-facility greenhouse gases, increasing 2 percent annually plus inflation","cbo_2025_2034_billions":813.6,"source":"CBO 60962"},
+        {"id":"employment_health_exclusion_75th_percentile","specification":"limit income and payroll tax exclusion to the 75th percentile of premiums, modified by the protection rules below","cbo_2025_2034_billions":697.0,"source":"CBO 60953 range; exact updated score required"},
+        {"id":"capital_gains_dividends_two_points","specification":"raise the 0, 15, and 20 percent long-term capital-gains and qualified-dividend rates to 2, 17, and 22 percent","cbo_2025_2034_billions":103.3,"source":"CBO 60940"}
+      ],
+      "published_individual_score_arithmetic_billions":3793.9,
+      "protections_requiring_rescore":["refundable per-person VAT credit paid in advance or periodically","per-capita emissions dividend and targeted regional transition support","geographic and age-risk adjustment to the employer-health premium cap","interaction among VAT, emissions prices, payroll and income offsets, and household rebates"],
+      "principal_burden":"consumers, workers, owners, energy users, carbon-intensive regions, higher-premium-plan workers, and capital-income recipients, net of rebates"
+    },
+    {
+      "id": "outlay_heavy_revenue_side",
+      "revenue_share_of_adjustment_percent": 50,
+      "revenue_target_2026_2036_billions": 2612.601,
+      "primary_outlay_share_percent": 50,
+      "instruments": [
+        {"id":"vat_five_percent_narrow_base","specification":"same narrow 5 percent VAT base as the broad-shared variant","cbo_2025_2034_billions":2180.0,"source":"CBO 60961"},
+        {"id":"foreign_corporate_income_full_rate","specification":"tax all foreign income of U.S. corporations immediately at the full statutory corporate rate using CBO option definitions","cbo_2025_2034_billions":340.0,"source":"CBO 60960"},
+        {"id":"capital_gains_dividends_two_points","specification":"raise the 0, 15, and 20 percent long-term capital-gains and qualified-dividend rates to 2, 17, and 22 percent","cbo_2025_2034_billions":103.3,"source":"CBO 60940"}
+      ],
+      "published_individual_score_arithmetic_billions":2623.3,
+      "protections_requiring_rescore":["refundable per-person VAT credit paid in advance or periodically","corporate anti-avoidance and foreign-tax-credit coordination","interaction between VAT, income and payroll offsets, capital-income behavior, and rebates"],
+      "principal_burden":"consumers, workers, owners, and capital-income recipients, net of the VAT credit; the remaining adjustment falls on specified primary outlays"
+    }
+  ],
+  "arithmetic_warning": "Published individual scores use 2025-2034 and are neither additive nor estimates of these modified 2027-start packages."
+}

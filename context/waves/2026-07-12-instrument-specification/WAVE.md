@@ -18,8 +18,8 @@ floors, and scoring request.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Specify revenue variants and protections | active |
-| 02 | Specify primary-outlay variants and service floors | pending |
+| 01 | Specify revenue variants and protections | complete |
+| 02 | Specify primary-outlay variants and service floors | active |
 | 03 | Define joint scoring, uncertainty, and correction contract | pending |
 | 04 | Compare variants and reassess ballot readiness | pending |
 
