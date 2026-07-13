@@ -1,0 +1,65 @@
+{
+  "experiment_id": "ratify-joint-score-sensitivity-v1",
+  "simulation_status": "synthetic_missing_value_sensitivity_not_independent_score",
+  "target_2026_2036_billions": 5225.202,
+  "results": [
+    {
+      "scenario": "lower_fiscal_effect",
+      "components_billions": {
+        "vat": 819.805,
+        "emissions": 342.688,
+        "employer_health_exclusion": 454.767,
+        "capital_gains_dividends": 64.428,
+        "defense": 598.118,
+        "medicare_advantage": 345.038
+      },
+      "revenue_billions": 1681.688,
+      "primary_outlay_billions": 943.156,
+      "total_primary_adjustment_billions": 2624.844,
+      "realized_revenue_share_percent": 64.07,
+      "gap_to_target_billions": 2600.358,
+      "target_coverage_percent": 50.23
+    },
+    {
+      "scenario": "central_synthetic",
+      "components_billions": {
+        "vat": 1261.582,
+        "emissions": 454.392,
+        "employer_health_exclusion": 608.606,
+        "capital_gains_dividends": 91.642,
+        "defense": 763.13,
+        "medicare_advantage": 405.831
+      },
+      "revenue_billions": 2416.222,
+      "primary_outlay_billions": 1168.961,
+      "total_primary_adjustment_billions": 3585.183,
+      "realized_revenue_share_percent": 67.39,
+      "gap_to_target_billions": 1640.019,
+      "target_coverage_percent": 68.61
+    },
+    {
+      "scenario": "higher_fiscal_effect",
+      "components_billions": {
+        "vat": 1852.103,
+        "emissions": 571.421,
+        "employer_health_exclusion": 769.247,
+        "capital_gains_dividends": 123.588,
+        "defense": 925.12,
+        "medicare_advantage": 456.902
+      },
+      "revenue_billions": 3316.359,
+      "primary_outlay_billions": 1382.022,
+      "total_primary_adjustment_billions": 4698.381,
+      "realized_revenue_share_percent": 70.59,
+      "gap_to_target_billions": 526.821,
+      "target_coverage_percent": 89.92
+    }
+  ],
+  "closure_exclusions": {
+    "administrative_savings_billions": 0.0,
+    "net_interest": "reported only after independent dynamic scoring",
+    "macroeconomic_feedback": "reported separately after independent scoring",
+    "2035_2036_defense_savings": "zero until a specified force plan is priced"
+  },
+  "interpretation": "Diagnostic assumption matrix only; not a forecast, public opinion estimate, or independent fiscal score."
+}

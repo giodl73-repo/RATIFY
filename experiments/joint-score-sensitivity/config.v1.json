@@ -1,0 +1,69 @@
+{
+  "experiment_id": "ratify-joint-score-sensitivity-v1",
+  "simulation_status": "synthetic_missing_value_sensitivity_not_independent_score",
+  "target_2026_2036_billions": 5225.202,
+  "scenarios": ["lower_fiscal_effect", "central_synthetic", "higher_fiscal_effect"],
+  "components": [
+    {
+      "id": "vat",
+      "side": "revenue",
+      "published_2025_2034_billions": 2180.0,
+      "source": "CBO 60961",
+      "window_factor": [0.95, 1.08, 1.22],
+      "gross_retention_after_tax_interactions": [0.70, 0.80, 0.90],
+      "vat_credit_cost_share_of_post_interaction_gross": [0.42, 0.32, 0.22],
+      "implementation_cost_share_of_post_credit_amount": [0.025, 0.015, 0.008]
+    },
+    {
+      "id": "emissions",
+      "side": "revenue",
+      "published_2025_2034_billions": 813.6,
+      "source": "CBO 60962",
+      "window_factor": [0.90, 1.05, 1.18],
+      "receipt_rescore_factor": [0.80, 0.90, 1.00],
+      "primary_balance_allocation_share": [0.60, 0.60, 0.60],
+      "implementation_cost_share_of_retained_amount": [0.025, 0.015, 0.008]
+    },
+    {
+      "id": "employer_health_exclusion",
+      "side": "revenue",
+      "published_2025_2034_billions": 697.0,
+      "source": "CBO 60953",
+      "window_factor": [0.92, 1.05, 1.18],
+      "protection_and_interaction_retention": [0.72, 0.84, 0.94],
+      "implementation_cost_share": [0.015, 0.010, 0.005]
+    },
+    {
+      "id": "capital_gains_dividends",
+      "side": "revenue",
+      "published_2025_2034_billions": 103.3,
+      "source": "CBO 60940",
+      "window_factor": [0.90, 1.05, 1.20],
+      "behavior_and_interaction_retention": [0.70, 0.85, 1.00],
+      "implementation_cost_share": [0.010, 0.006, 0.003]
+    },
+    {
+      "id": "defense",
+      "side": "primary_outlay",
+      "published_2027_2034_billions": 944.0,
+      "source": "CBO 60920 annual outlays excluding 2026",
+      "force_plan_realization": [0.72, 0.86, 1.00],
+      "transition_and_protection_retention": [0.88, 0.94, 0.98],
+      "extension_2035_2036_billions": [0.0, 0.0, 0.0]
+    },
+    {
+      "id": "medicare_advantage",
+      "side": "primary_outlay",
+      "published_2027_2034_billions": 489.0,
+      "source": "CBO 60900",
+      "plan_response_and_protection_retention": [0.72, 0.84, 0.94],
+      "implementation_cost_share": [0.020, 0.012, 0.006]
+    }
+  ],
+  "excluded_from_closure": {
+    "administrative_savings_billions": 0.0,
+    "net_interest": "reported only after independent dynamic scoring",
+    "macroeconomic_feedback": "reported separately after independent scoring",
+    "2035_2036_defense_savings": "zero until a specified force plan is priced"
+  }
+}

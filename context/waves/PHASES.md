@@ -5,7 +5,7 @@ validation-first growth system.
 
 ## Active wave
 
-- `2026-07-12-broad-shared-score-ready`
+- `2026-07-12-package-closure-options`
 
 ## Completed waves
 
@@ -13,6 +13,8 @@ validation-first growth system.
 - `2026-07-12-public-priority-reauthorization`
 - `2026-07-12-taxlane-budget-bridge`
 - `2026-07-12-instrument-specification`
+- `2026-07-12-broad-shared-score-ready`
+- `2026-07-12-joint-score-sensitivity`
 
 ## Protocol
 
