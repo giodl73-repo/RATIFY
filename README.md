@@ -83,8 +83,15 @@ learning target and the smallest falsifiable next experiment.
 
 ## Status
 
-Foundation scaffold. The first experiment will preserve and generalize the
-annual 100-point budget-ballot work developed in TAXLANE.
+Research foundation, U.S. design contracts, TAXLANE budget bridge, fiscally
+closed ballot rules, Voter Lab V2, two candidate construction packages,
+input-locked external-review packets, and comprehension-interface stress tests
+are retained and reproducible. No candidate is independently scored or ready
+for a binding ballot.
+
+The next resumable wave freezes a preregisterable human-comprehension study
+instrument. Its current pulse, exact retained inputs, and governance boundary
+are recorded under `context/waves/2026-07-12-human-test-instrument/`.
 
 ## License
 
