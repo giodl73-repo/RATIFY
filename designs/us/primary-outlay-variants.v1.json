@@ -1,0 +1,56 @@
+{
+  "record_id": "ratify-primary-balance-outlay-variants-v1",
+  "target_path": "primary_balance",
+  "total_adjustment_2026_2036_billions": 5225.202,
+  "score_status": "specification_for_joint_score_not_scored_package",
+  "common_rules": {
+    "effective_date": "2027-01-01 unless administrability requires later phase-in",
+    "administration_savings_assumed_billions": 0,
+    "rights_floor": "no reduction may violate constitutional rights, due process, treaty or tribal obligations, or vested legal commitments",
+    "continuity_floor": "no abrupt interruption of active medical treatment, disability support, life-safety operations, or executed contracts",
+    "score_request": "annual 2026-2036 federal savings, cost shifts, implementation, service, access, workforce, regional, macroeconomic, interest, deficit, and debt effects"
+  },
+  "variants": [
+    {
+      "id":"progressive_heavy_outlay_side",
+      "primary_outlay_share_percent":15,
+      "primary_outlay_target_2026_2036_billions":783.780,
+      "instruments":[
+        {"id":"medicare_advantage_benchmarks_ten_percent","specification":"reduce Medicare Advantage benchmarks uniformly by 10 percent beginning in 2027","cbo_2025_2034_billions":489,"source":"CBO 60900"},
+        {"id":"selected_nondefense_discretionary","specification":"use CBO's selected nondefense discretionary option only after program-level schedule and floors are enumerated","cbo_2025_2034_billions":339,"source":"CBO compendium; program schedule required"}
+      ],
+      "published_individual_score_arithmetic_billions":828,
+      "service_floors":["Medicare Advantage county network adequacy and plan-exit monitoring","enrollee notice, special enrollment, continuity of active treatment, and appeal","enumerated nondefense programs rather than an undisclosed across-the-board reduction","life-safety, justice, inspection, weather, and core statistical continuity"],
+      "principal_exposure":"Medicare Advantage plans and enrollees plus workers, grantees, and users of the selected nondefense programs"
+    },
+    {
+      "id":"broad_shared_outlay_side",
+      "primary_outlay_share_percent":27,
+      "primary_outlay_target_2026_2036_billions":1410.805,
+      "instruments":[
+        {"id":"defense_annual_budget_reduction","specification":"CBO funding schedule reducing defense budget authority by $1.118T and outlays by $959B over 2025-2034, replaced before scoring with a capability-level 2027-start schedule","cbo_2025_2034_billions":959,"source":"CBO 60920"},
+        {"id":"medicare_advantage_benchmarks_ten_percent","specification":"reduce Medicare Advantage benchmarks uniformly by 10 percent beginning in 2027","cbo_2025_2034_billions":489,"source":"CBO 60900"}
+      ],
+      "published_individual_score_arithmetic_billions":1448,
+      "service_floors":["defense strategy, force, munitions, readiness, nuclear command-and-control, cyber, treaty, and personnel transition review","no across-the-board defense sequester presented as a capability plan","Medicare Advantage network, quality, active-treatment continuity, county exit, and appeal protections"],
+      "principal_exposure":"military personnel, contractors, defense communities and capabilities, Medicare Advantage plans, providers, and enrollees"
+    },
+    {
+      "id":"outlay_heavy_outlay_side",
+      "primary_outlay_share_percent":50,
+      "primary_outlay_target_2026_2036_billions":2612.601,
+      "instruments":[
+        {"id":"defense_annual_budget_reduction","specification":"same CBO defense funding schedule, replaced before scoring with a capability-level 2027-start schedule","cbo_2025_2034_billions":959,"source":"CBO 60920"},
+        {"id":"medicare_advantage_benchmarks_ten_percent","specification":"reduce Medicare Advantage benchmarks uniformly by 10 percent beginning in 2027","cbo_2025_2034_billions":489,"source":"CBO 60900"},
+        {"id":"medicaid_per_enrollee_caps_cpi_u","specification":"federal per-enrollee caps for all Medicaid eligibility categories using CPI-U growth, with the protection modifications below","cbo_2025_2034_billions":893,"source":"CBO 60896 option range; exact variant score confirmation required"},
+        {"id":"hospital_outpatient_site_neutral_high","specification":"highest CBO reduce-hospital-outpatient-payment alternative, with rural and access-critical exceptions below","cbo_2025_2034_billions":157,"source":"CBO compendium; exact payment classes required"},
+        {"id":"crop_insurance_subsidies","specification":"CBO reduce-crop-insurance-subsidy option","cbo_2025_2034_billions":47,"source":"CBO compendium; exact subsidy parameters required"},
+        {"id":"selected_state_local_grants","specification":"CBO reduce-certain-state-and-local-grants option after every grant line is enumerated","cbo_2025_2034_billions":67,"source":"CBO compendium; grant schedule required"}
+      ],
+      "published_individual_score_arithmetic_billions":2612,
+      "service_floors":["all broad-shared defense and Medicare protections","Medicaid enrollment-responsive caps rather than aggregate block grants","automatic recession, epidemic, disaster, enrollment, and high-cost case adjustments","eligibility, mandatory benefit, disability, long-term-care, provider-access, and due-process floors","rural, safety-net, teaching, and access-critical hospital review","enumerated grant and crop-insurance changes with state, farm, disaster, and food-system effects"],
+      "principal_exposure":"states, Medicaid enrollees and providers, Medicare Advantage enrollees and plans, hospitals, defense communities, farmers, and state and local grant recipients"
+    }
+  ],
+  "arithmetic_warning": "Published individual estimates use 2025-2034 and are not additive. Service floors and a 2027 start materially alter the options and require a new joint score."
+}

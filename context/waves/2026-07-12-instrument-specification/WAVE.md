@@ -19,8 +19,8 @@ floors, and scoring request.
 | Pulse | Purpose | Status |
 |---|---|---|
 | 01 | Specify revenue variants and protections | complete |
-| 02 | Specify primary-outlay variants and service floors | active |
-| 03 | Define joint scoring, uncertainty, and correction contract | pending |
+| 02 | Specify primary-outlay variants and service floors | complete |
+| 03 | Define joint scoring, uncertainty, and correction contract | active |
 | 04 | Compare variants and reassess ballot readiness | pending |
 
 ## Decision gate
