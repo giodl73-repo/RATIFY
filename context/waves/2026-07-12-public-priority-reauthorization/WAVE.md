@@ -21,8 +21,8 @@ technical means under rights, evidence, and audit constraints.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Convert public-priority design into evidence and ballot contracts | active |
-| 02 | Build a capture-and-framing stress experiment | pending |
+| 01 | Convert public-priority design into evidence and ballot contracts | complete |
+| 02 | Build a capture-and-framing stress experiment | active |
 | 03 | Role-review rights, administration, and legitimacy | pending |
 | 04 | Decide whether the model is ready for a TAXLANE-derived budget experiment | pending |
 

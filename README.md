@@ -10,6 +10,11 @@ additional legislative chamber—not merely electing representatives, but
 initiating proposals, ratifying major laws, and periodically reviewing public
 programs.
 
+Its fiscal rule is simple: voters choose policy and funding together. Every
+package names taxes, contributions, offsets, transition costs, explicit
+borrowing, debt service, and forecast-correction rules; the ballot cannot submit
+with an unexplained gap.
+
 ## Research program
 
 | Area | Question |
@@ -30,6 +35,11 @@ The initial design hypothesis is a **double majority**:
 Higher-impact proposals can be tested at stronger thresholds, such as 55% of
 the national vote and approval in 30 states. This preserves equal individual
 votes in the national count while requiring geographically broad consent.
+
+The first stress test showed that territorial rules can veto an identical
+national majority depending only on geographic distribution. RATIFY therefore
+uses national popular equality as its experimental baseline and reports state
+breadth separately unless a binding territorial gate earns justification.
 
 ## Program reauthorization ballot
 

@@ -24,6 +24,10 @@ people choose ends, tradeoffs, and renewal conditions
 institutions implement means under audit and rights review
 ```
 
+Every renewal choice is fiscally closed. Benefits, taxes or contributions,
+named offsets, transition costs, borrowing, and debt service are voted as one
+linked package. The interface does not accept an unfunded selection.
+
 ## Renewal record
 
 Before a program reaches a public review, an independent evidence office should
