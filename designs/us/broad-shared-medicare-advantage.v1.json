@@ -1,0 +1,48 @@
+{
+  "schema_version": "ratify.medicare_advantage.v1",
+  "id": "broad-shared-medicare-advantage",
+  "status": "specified_for_independent_scoring",
+  "effective_date": "2027-01-01",
+  "benchmark_policy": {
+    "change": "Reduce Medicare Advantage benchmarks uniformly by 10 percent in every county.",
+    "other_payment_rules": "Continue current-law payment methods except where this specification expressly changes beneficiary protections.",
+    "source": {
+      "publisher": "Congressional Budget Office",
+      "publication": "Reduce Medicare Advantage Benchmarks",
+      "publication_id_used_by_variant": "60900",
+      "source_url": "https://www.cbo.gov/budget-options/60900",
+      "warning": "The added protections change this package; no published estimate is treated as its score."
+    }
+  },
+  "beneficiary_protections": {
+    "active_treatment": "For an enrollee receiving an active course of treatment when a provider leaves the network or the enrollee changes plans because of a plan exit, the receiving plan must honor existing prior authorization and permit the treating provider at in-network cost sharing for the longer of 180 days or the medically reasonable course of treatment. Pregnancy protection continues through postpartum care.",
+    "network_failure": "When CMS finds a material network-adequacy failure, the plan must arrange noncontracted care at in-network cost sharing until compliance is restored and may not market to new enrollees in the affected service area.",
+    "plan_exit_notice": "CMS and the plan must give individualized paper and electronic notice at the earliest date permitted by the annual contracting calendar and no later than 90 days before termination when legally and operationally possible.",
+    "enrollment_right": "A plan termination, service-area reduction, or CMS finding of material network failure creates a special election period with neutral counseling and no gap in Part A or Part B coverage.",
+    "original_medicare": "Every affected beneficiary may elect Original Medicare. Federal rules shall provide a time-limited guaranteed-issue path to available Medigap coverage without medical underwriting; its federal and beneficiary cost effects must be scored.",
+    "appeal": "Expedited independent review applies to denial of continuity, noncontracted access, or special-election rights. Coverage continues while a timely active-treatment appeal is pending.",
+    "no_cost_shift_disguise": "Premium, supplemental-benefit, cost-sharing, prior-authorization, denial, and provider-payment changes are measured and shown to voters rather than described as administrative savings."
+  },
+  "monitoring": {
+    "unit": "county and plan contract",
+    "frequency": "quarterly, with a pre-enrollment annual certification",
+    "public_measures": [
+      "plan count and enrollment-weighted plan choice",
+      "provider time and distance, appointment wait time, directory accuracy, and network turnover",
+      "plan exits, service-area reductions, and beneficiary switching",
+      "premiums, supplemental benefits, cost sharing, and maximum out-of-pocket exposure",
+      "prior-authorization requests, denials, appeals, reversals, and time to decision",
+      "hospital, primary, behavioral, oncology, maternity, rehabilitation, home-health, and skilled-nursing access",
+      "effects on rural, disabled, dual-eligible, low-income, and actively treated beneficiaries"
+    ],
+    "data_rule": "Publish deidentified measures, methods, exceptions, enforcement, and plan beneficial ownership in reusable form."
+  },
+  "score_request": [
+    "annual federal savings and protection costs for 2027 through 2036",
+    "Medicare Advantage bids, rebates, premiums, benefits, cost sharing, enrollment, and plan participation",
+    "movement to Original Medicare and resulting Parts A, B, D, and Medigap effects",
+    "provider payment, participation, network, rural, and workforce effects",
+    "distribution by income, disability, dual eligibility, race and ethnicity where statistically reliable, and geography",
+    "implementation, counseling, appeal, oversight, interest, deficit, and debt effects"
+  ]
+}

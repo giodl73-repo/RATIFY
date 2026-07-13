@@ -7,8 +7,8 @@
 | Main service exposure | Medicare Advantage and selected nondefense services | Defense capabilities and Medicare Advantage | Defense, Medicare, Medicaid, hospitals, farms, states and localities |
 | Instrument count | Higher | Lower | Higher |
 | Interaction density | High within income and payroll tax | High across prices, rebates, wages, tax offsets and health benefits | High across federal-state health finance, providers and revenue |
-| Closest to score-ready | No | **Closest** | No |
-| Binding gaps | Employer-health adjustment; exact nondefense schedule | VAT credit amount; emissions dividend and transition; defense capability schedule | Medicaid and hospital specifications; defense plan; grant and crop schedules |
+| Closest to score-ready | No | **Ready for joint scoring** | No |
+| Binding gaps | Employer-health adjustment; exact nondefense schedule | Joint score and closure of any returned gap | Medicaid and hospital specifications; defense plan; grant and crop schedules |
 
 ## Readiness judgment
 
@@ -17,9 +17,10 @@ it uses fewer large instruments and exposes its central social bargain clearly:
 broad contributions with household rebates, a transition away from emissions,
 and specified defense and Medicare changes.
 
-It is not yet score-ready. A scorer would still have to invent the VAT credit,
-emissions dividend and transition amounts, and the defense capability schedule.
-Those are material choices, not implementation details.
+Its VAT credit, emissions allocation, defense path, and Medicare protections are
+now specified. It is ready for a joint score, but not a ballot: its earlier
+component arithmetic is invalidated by protection costs, later starts, fiscal
+allocations, and interactions.
 
 The progressive-heavy variant reduces direct service exposure but creates dense
 interactions among surtax, deductions, employer health, corporate income, and
@@ -32,6 +33,6 @@ risk and the most unresolved operational detail.
 
 ## Ballot judgment
 
-None is ready for Yes/No ratification. The next bounded slice is to make the
-broad shared-contribution variant independently scoreable without allowing the
-scorer to choose its household protections or defense strategy.
+None is ready for Yes/No ratification. The broad shared-contribution variant is
+ready to be scored; after results return, its sponsor must close any gap with
+enumerated policy and disclose all service and distribution effects.

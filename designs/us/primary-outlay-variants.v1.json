@@ -28,8 +28,8 @@
       "primary_outlay_share_percent":27,
       "primary_outlay_target_2026_2036_billions":1410.805,
       "instruments":[
-        {"id":"defense_annual_budget_reduction","specification":"CBO funding schedule reducing defense budget authority by $1.118T and outlays by $959B over 2025-2034, replaced before scoring with a capability-level 2027-start schedule","cbo_2025_2034_billions":959,"source":"CBO 60920"},
-        {"id":"medicare_advantage_benchmarks_ten_percent","specification":"reduce Medicare Advantage benchmarks uniformly by 10 percent beginning in 2027","cbo_2025_2034_billions":489,"source":"CBO 60900"}
+        {"id":"defense_annual_budget_reduction","specification":"use designs/us/broad-shared-defense-path.v1.json; published CBO arithmetic is context, not the package score","cbo_2025_2034_billions":959,"source":"CBO 60920"},
+        {"id":"medicare_advantage_benchmarks_ten_percent","specification":"use designs/us/broad-shared-medicare-advantage.v1.json; published CBO arithmetic is context, not the package score","cbo_2025_2034_billions":489,"source":"CBO 60900"}
       ],
       "published_individual_score_arithmetic_billions":1448,
       "service_floors":["defense strategy, force, munitions, readiness, nuclear command-and-control, cyber, treaty, and personnel transition review","no across-the-board defense sequester presented as a capability plan","Medicare Advantage network, quality, active-treatment continuity, county exit, and appeal protections"],

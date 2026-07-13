@@ -12,11 +12,14 @@ does not need to invent material policy choices.
 |---|---|---|
 | 01 | Specify VAT credit and delivery | complete |
 | 02 | Specify emissions dividend and regional transition | complete |
-| 03 | Specify defense capability and workforce path | active |
-| 04 | Complete Medicare protections and score-readiness review | pending |
+| 03 | Specify defense capability and workforce path | complete |
+| 04 | Complete Medicare protections and score-readiness review | complete |
 
 ## Decision gate
 
 Can the broad shared-contribution variant be handed to independent fiscal,
 distributional, legal, service, and implementation reviewers without asking
 them to choose its policy?
+
+**Decision:** Yes, for joint scoring. No, for a binding ballot until the joint
+score is returned and any gap is closed with enumerated policy.

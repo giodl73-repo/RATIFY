@@ -1,0 +1,79 @@
+{
+  "schema_version": "ratify.defense_path.v1",
+  "id": "broad-shared-defense-path",
+  "status": "specified_for_independent_scoring_not_endorsed_as_strategy",
+  "effective_date": "2027-10-01",
+  "source_option": {
+    "publisher": "Congressional Budget Office",
+    "publication": "Reduce the Department of Defense's Annual Budget",
+    "publication_id": "60920",
+    "published": "2024-12-12",
+    "source_url": "https://www.cbo.gov/budget-options/60920",
+    "warning": "CBO estimates the envelope but does not specify or assess a particular military alternative."
+  },
+  "fiscal_path": {
+    "basis": "reductions from the then-current CBO projection of the cost of implementing DoD's plans",
+    "fiscal_year_budget_authority_reduction_billions": {
+      "2027": 57,
+      "2028": 88,
+      "2029": 120,
+      "2030": 154,
+      "2031": 161,
+      "2032": 165,
+      "2033": 170,
+      "2034": 175
+    },
+    "outside_published_window": "No savings are claimed for 2035 or 2036 until an independent scorer extends a specified force plan.",
+    "emergency_and_war_funding": "included in total national-defense cost and not an automatic escape from the voted path; any supplemental must identify funding or debt consequences on its ballot"
+  },
+  "implementation_choice": {
+    "strategy": "proportional_smaller_force",
+    "description": "Preserve the 2025 composition by major unit type while reducing active-component personnel and associated units, support, operations, and acquisition toward a force approximately 17 percent smaller by 2034.",
+    "active_component_end_strength_reference": 1300000,
+    "active_component_end_strength_2034_target": 1079000,
+    "phase_rule": "DoD shall publish annual service, unit, end-strength, civilian, contractor, operations, maintenance, and acquisition schedules that fit the statutory fiscal path; it may shift no more than 5 percent of one year's required reduction among those categories without a public capability finding.",
+    "prohibited_shortcut": "No undisclosed across-the-board sequester and no reliance on unspecified administrative savings."
+  },
+  "protected_obligations": [
+    "earned military and civilian retirement benefits",
+    "veterans benefits and health care outside the Department of Defense budget",
+    "care for wounded, ill, and injured service members",
+    "nuclear command, control, and communications safety and continuity",
+    "cyber defense of military systems",
+    "pay and health benefits promised for service already performed"
+  ],
+  "workforce_transition": {
+    "order": [
+      "reduce accessions and use normal attrition",
+      "offer voluntary separation and retirement where skills allow",
+      "use involuntary separation only after the first two tools are documented as insufficient"
+    ],
+    "protections": [
+      "at least 180 days individual notice absent urgent operational necessity",
+      "credential translation and civilian placement assistance",
+      "two years of transition health coverage or an independently scored equivalent",
+      "pension and GI Bill rights already earned remain intact",
+      "formula-based community transition tied to verified employment and revenue loss, with beneficial-ownership disclosure"
+    ]
+  },
+  "capability_gate": {
+    "reviewers": ["Congressional Budget Office", "Government Accountability Office", "Director of Operational Test and Evaluation", "independent bipartisan national-security panel"],
+    "required_public_tests": [
+      "force sufficiency against the current National Defense Strategy scenarios",
+      "readiness, deployment tempo, munitions, logistics, sealift, and industrial-base effects",
+      "nuclear command-and-control and cyber resilience",
+      "treaty and current-operation obligations",
+      "personnel, contractor, installation, and community effects"
+    ],
+    "failure_rule": "A failed capability finding does not waive the test or create free spending. Before the binding ballot, the sponsor must publish a revised force schedule, substitute enumerated savings, or add enumerated revenue, and obtain a new joint score.",
+    "voter_disclosure": "The ballot states every failed or disputed test and displays the fiscal replacement."
+  },
+  "score_request": [
+    "annual budget authority and outlays for 2027 through 2036 against a current baseline",
+    "annual service and active, reserve, civilian, and contractor workforce effects",
+    "unit, readiness, procurement, operations, maintenance, installation, and industrial-base effects",
+    "transition and community-protection costs",
+    "macroeconomic, interest, deficit, and debt effects",
+    "sensitivity to supplemental and emergency appropriations"
+  ]
+}
