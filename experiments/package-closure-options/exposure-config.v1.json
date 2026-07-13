@@ -1,0 +1,44 @@
+{
+  "model_id": "ratify-closure-exposure-stress-v1",
+  "status": "synthetic_relative_exposure_not_incidence_estimate",
+  "scale": "zero_no_incremental_exposure_to_100_high_incremental_exposure",
+  "profiles": [
+    {"id":"low_income_family","synthetic_weight":0.16,"broader_contribution":20,"progressive_closure":2,"partial_fiscal_path":55,"reason":"scaled VAT credit protects an allowance; debt risk remains deferred rather than absent"},
+    {"id":"median_income_family","synthetic_weight":0.24,"broader_contribution":52,"progressive_closure":5,"partial_fiscal_path":50,"reason":"consumption above the protected allowance; generally below surtax thresholds"},
+    {"id":"upper_middle_income_family","synthetic_weight":0.17,"broader_contribution":65,"progressive_closure":32,"partial_fiscal_path":45,"reason":"larger taxable consumption and some surtax exposure"},
+    {"id":"high_income_household","synthetic_weight":0.08,"broader_contribution":62,"progressive_closure":90,"partial_fiscal_path":38,"reason":"high consumption, direct surtax exposure, and ownership incidence"},
+    {"id":"low_income_retiree","synthetic_weight":0.10,"broader_contribution":28,"progressive_closure":1,"partial_fiscal_path":28,"reason":"credit protection and little direct surtax exposure; debt-service pressure may affect future budgets"},
+    {"id":"young_worker","synthetic_weight":0.12,"broader_contribution":48,"progressive_closure":6,"partial_fiscal_path":88,"reason":"moderate current consumption and high synthetic future-debt exposure"},
+    {"id":"small_business_operator","synthetic_weight":0.09,"broader_contribution":78,"progressive_closure":18,"partial_fiscal_path":58,"reason":"VAT administration and pass-through exposure; surtax depends on income"},
+    {"id":"multinational_owner_executive","synthetic_weight":0.04,"broader_contribution":58,"progressive_closure":100,"partial_fiscal_path":42,"reason":"direct corporate and high-income exposure"}
+  ],
+  "nonhousehold_risks": {
+    "broader_contribution": {
+      "tax_administration_capacity":"high",
+      "price_level_and_cash_flow":"high",
+      "low_income_protection_delivery":"high",
+      "geographic_concentration":"low",
+      "avoidance_and_base_boundary":"medium"
+    },
+    "progressive_closure": {
+      "tax_administration_capacity":"medium",
+      "realization_and_income_shifting":"high",
+      "multinational_location_and_ownership":"high",
+      "low_income_direct_burden":"low",
+      "geographic_concentration":"medium"
+    },
+    "partial_fiscal_path": {
+      "near_term_tax_administration":"low",
+      "future_interest_and_budget_pressure":"high",
+      "intergenerational_concentration":"high",
+      "forecast_dependence":"high",
+      "near_term_household_disruption":"low"
+    }
+  },
+  "guardrails": [
+    "Weights are scenario weights, not population shares.",
+    "Exposure values are ordinal stress inputs, not dollars, incidence, welfare, or preferences.",
+    "Common VAT, emissions, defense, and Medicare effects are excluded because this test compares only closure margins.",
+    "No option may be selected solely by minimizing the weighted mean."
+  ]
+}

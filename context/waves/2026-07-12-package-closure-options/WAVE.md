@@ -21,10 +21,14 @@ or hidden reductions in rights and continuity protections.
 |---|---|---|
 | 01 | Specify closure arithmetic and invariants | complete |
 | 02 | Build three complete candidate packages | complete |
-| 03 | Stress-test household, service, and regional effects | active |
-| 04 | Select packages eligible for joint scoring and voter comprehension tests | pending |
+| 03 | Stress-test household, service, and regional effects | complete |
+| 04 | Select packages eligible for joint scoring and voter comprehension tests | complete |
 
 ## Decision gate
 
 Can voters compare a small number of honestly funded packages without confusing
 package construction with the final binary ratification ballot?
+
+**Decision:** Yes. Advance progressive primary balance and the protected partial
+path. Retain the 11.5% VAT option as a comparator. Show the common package once,
+compare marginal closure choices upstream, and preserve binary ratification.
