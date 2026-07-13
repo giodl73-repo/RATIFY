@@ -20,8 +20,8 @@ floors, and scoring request.
 |---|---|---|
 | 01 | Specify revenue variants and protections | complete |
 | 02 | Specify primary-outlay variants and service floors | complete |
-| 03 | Define joint scoring, uncertainty, and correction contract | active |
-| 04 | Compare variants and reassess ballot readiness | pending |
+| 03 | Define joint scoring, uncertainty, and correction contract | complete |
+| 04 | Compare variants and reassess ballot readiness | complete |
 
 ## Decision gate
 

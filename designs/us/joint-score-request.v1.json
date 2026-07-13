@@ -1,0 +1,16 @@
+{
+  "record_id":"ratify-primary-balance-joint-score-request-v1",
+  "baseline":"CBO February 2026 current law",
+  "window":{"start_fiscal_year":2026,"end_fiscal_year":2036},
+  "target":{"primary_balance_by_fiscal_year":2036,"first_order_target_debt_percent_gdp":107.575},
+  "variants":["progressive_heavy","broad_shared_contribution","outlay_heavy"],
+  "required_fiscal_fields":["gross_revenue","income_payroll_offsets","refundable_credits_dividends_transition","primary_outlay_change","implementation_cost","interaction_adjustment","total_primary_adjustment","incremental_net_interest","total_deficit_effect","debt_held_by_public","debt_percent_gdp"],
+  "required_periodicity":"annual",
+  "required_scenarios":["central_conventional","lower_fiscal_effect","higher_fiscal_effect","macroeconomic_feedback"],
+  "required_distribution_dimensions":["income","age","family_type","state_region","industry","worker_employer_owner","beneficiary_health_status_where_applicable"],
+  "required_service_domains":["health_access_quality_continuity","medicaid_state_and_enrollee_effects","defense_capability_readiness_workforce","energy_affordability_and_transition","state_local_and_rural_service_effects"],
+  "correction_contract":{"annual_reconciliation":true,"automatic_corridor_required":true,"legislative_correction_outside_corridor":true,"early_review_trigger_required":true,"rights_and_continuity_floors_override_automatic_adjustment":true},
+  "current_law_no_case_required":true,
+  "isolated_score_addition_allowed":false,
+  "voter_lab_substantive_preference_status":"blocked_until_joint_score_or_full_missing-value_sensitivity_matrix"
+}
