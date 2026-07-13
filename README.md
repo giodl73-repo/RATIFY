@@ -15,6 +15,11 @@ package names taxes, contributions, offsets, transition costs, explicit
 borrowing, debt service, and forecast-correction rules; the ballot cannot submit
 with an unexplained gap.
 
+Its default binding ballot is also simple: **Yes adopts one complete challenger
+and its funding; No retains the complete current-law baseline and its fiscal
+path.** Numeric and multi-option stages help form the challenger but do not
+normally replace final binary consent.
+
 ## Research program
 
 | Area | Question |

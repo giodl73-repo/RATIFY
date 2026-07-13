@@ -3,8 +3,10 @@
 ## Design principle
 
 Use direct numeric input when the public choice is genuinely continuous and
-bounded. Use a short multi-option ballot when implementation choices interact.
-Do not force a false binary and do not ask voters to draft technical law.
+bounded. Use a preference stage when several coherent packages compete. The
+final binding enactment vote should ordinarily follow
+`binary-ratification-ballot.md`: one fully reviewed challenger versus current
+law in a clear Yes/No vote.
 
 Every package must also satisfy `fiscally-closed-ballot.md`. Policy benefits,
 funding, offsets, borrowing, debt service, and correction rules are one ballot
@@ -71,12 +73,12 @@ operations.
    rights analyses accompany every surviving option.
 6. **Published exclusion log:** Every excluded or merged proposal receives a
    reason, source record, and appeal path.
-7. **Shortlist ballot:** Voters rank no more than five options, including the
-   status quo and “return for revision.” Every option is fully financed on the
-   same scoring basis.
-8. **Consent round:** The leading change faces the status quo in a final
-   majority comparison, either on the same ranked ballot through an explicit
-   rule or in a separate runoff.
+7. **Preference stage:** If multiple materially distinct finalists remain,
+   voters or the authorized citizen process select one challenger from no more
+   than five complete options under a published method.
+8. **Binary ratification:** The challenger faces the complete current-law
+   baseline in a clear Yes/No vote. Both sides show policy, funding, outcomes,
+   borrowing, and debt on the same basis.
 
 ## Nonremovable choices
 
@@ -91,10 +93,11 @@ The option-selection body may not remove:
 
 ## Why two stages
 
-A ranked shortlist reduces spoilers and lets voters compare coherent packages.
-The final change-versus-status-quo test answers a different question: whether
-the selected reform has an affirmative mandate to replace current law. Winning
-a divided first round is not enough.
+A preference stage can reduce spoilers and choose one coherent challenger. The
+final change-versus-status-quo test answers the question voters reasonably
+expect: whether that complete reform has an affirmative mandate to replace the
+complete current-law baseline. Winning a divided preliminary round is not
+enactment.
 
 ## Numeric ballots
 

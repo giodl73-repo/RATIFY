@@ -5,6 +5,11 @@ the points where it adds legitimacy and direction while leaving urgent action,
 technical drafting, administration, adjudication, and rights enforcement with
 institutions designed for those tasks.
 
+The ordinary binding surface is simple: one complete challenger against one
+complete current-law baseline, decided Yes/No. Multi-option and numeric work is
+upstream agenda formation unless a specific legal framework makes it directly
+self-executing.
+
 ## Four clocks
 
 1. **Priority clock:** Citizens periodically allocate attention and fiscal
@@ -35,8 +40,8 @@ For discrete policy packages:
 
 ```text
 evidence -> open proposals -> qualification -> citizen shortlist
-         -> fully financed packages -> ranked comparison
-         -> winning reform vs status quo
+         -> fully financed packages -> select one challenger
+         -> YES reform / NO current law
 ```
 
 For one continuous parameter:
