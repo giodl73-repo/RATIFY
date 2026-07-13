@@ -1,0 +1,553 @@
+{
+  "experiment_id": "ratify-persistent-candidate-comparison-v1",
+  "status": "synthetic_interface_sensitivity_not_human_validation",
+  "decisions": [
+    {
+      "interface": "sequential_layered",
+      "minimum_fact_percent": 61.99,
+      "candidate_gap_points": 0.05,
+      "maximum_order_gap_points": 4.27,
+      "passes_neutral_central": false
+    },
+    {
+      "interface": "persistent_strip",
+      "minimum_fact_percent": 67.51,
+      "candidate_gap_points": 0.02,
+      "maximum_order_gap_points": 1.66,
+      "passes_neutral_central": false
+    },
+    {
+      "interface": "common_facts_refresh",
+      "minimum_fact_percent": 68.49,
+      "candidate_gap_points": 0.08,
+      "maximum_order_gap_points": 0.85,
+      "passes_neutral_central": false
+    },
+    {
+      "interface": "strip_plus_refresh",
+      "minimum_fact_percent": 73.34,
+      "candidate_gap_points": 0.13,
+      "maximum_order_gap_points": 0.55,
+      "passes_neutral_central": true
+    }
+  ],
+  "summaries": [
+    {
+      "interface": "sequential_layered",
+      "condition": "neutral_central_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 70.0,
+            "fiscal_target": 72.02,
+            "debt": 65.93,
+            "correction_rule": 61.99,
+            "unscored_status": 70.88
+          },
+          "overall_percent": 68.16,
+          "position_1_percent": 70.27,
+          "position_2_percent": 66.07
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 70.15,
+            "fiscal_target": 71.59,
+            "debt": 65.73,
+            "correction_rule": 62.03,
+            "unscored_status": 71.05
+          },
+          "overall_percent": 68.11,
+          "position_1_percent": 70.24,
+          "position_2_percent": 65.97
+        }
+      ]
+    },
+    {
+      "interface": "sequential_layered",
+      "condition": "neutral_high_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 65.26,
+            "fiscal_target": 67.02,
+            "debt": 61.6,
+            "correction_rule": 57.62,
+            "unscored_status": 66.16
+          },
+          "overall_percent": 63.53,
+          "position_1_percent": 65.48,
+          "position_2_percent": 61.58
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 65.39,
+            "fiscal_target": 67.02,
+            "debt": 60.95,
+            "correction_rule": 57.22,
+            "unscored_status": 66.39
+          },
+          "overall_percent": 63.39,
+          "position_1_percent": 65.52,
+          "position_2_percent": 61.26
+        }
+      ]
+    },
+    {
+      "interface": "sequential_layered",
+      "condition": "progressive_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 54.26,
+            "fiscal_target": 71.83,
+            "debt": 65.68,
+            "correction_rule": 54.08,
+            "unscored_status": 71.0
+          },
+          "overall_percent": 63.37,
+          "position_1_percent": 65.37,
+          "position_2_percent": 61.34
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 69.66,
+            "fiscal_target": 71.71,
+            "debt": 65.67,
+            "correction_rule": 61.6,
+            "unscored_status": 70.92
+          },
+          "overall_percent": 67.91,
+          "position_1_percent": 70.1,
+          "position_2_percent": 65.77
+        }
+      ]
+    },
+    {
+      "interface": "sequential_layered",
+      "condition": "partial_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 70.08,
+            "fiscal_target": 72.2,
+            "debt": 65.92,
+            "correction_rule": 62.27,
+            "unscored_status": 71.1
+          },
+          "overall_percent": 68.31,
+          "position_1_percent": 70.21,
+          "position_2_percent": 66.42
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 70.04,
+            "fiscal_target": 64.16,
+            "debt": 49.73,
+            "correction_rule": 62.16,
+            "unscored_status": 70.91
+          },
+          "overall_percent": 63.4,
+          "position_1_percent": 65.49,
+          "position_2_percent": 61.31
+        }
+      ]
+    },
+    {
+      "interface": "persistent_strip",
+      "condition": "neutral_central_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.45,
+            "fiscal_target": 77.17,
+            "debt": 73.21,
+            "correction_rule": 67.64,
+            "unscored_status": 75.08
+          },
+          "overall_percent": 73.71,
+          "position_1_percent": 74.54,
+          "position_2_percent": 72.88
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.16,
+            "fiscal_target": 77.32,
+            "debt": 73.32,
+            "correction_rule": 67.51,
+            "unscored_status": 75.34
+          },
+          "overall_percent": 73.73,
+          "position_1_percent": 74.28,
+          "position_2_percent": 73.18
+        }
+      ]
+    },
+    {
+      "interface": "persistent_strip",
+      "condition": "neutral_high_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 70.9,
+            "fiscal_target": 72.72,
+            "debt": 68.61,
+            "correction_rule": 63.0,
+            "unscored_status": 70.64
+          },
+          "overall_percent": 69.17,
+          "position_1_percent": 69.8,
+          "position_2_percent": 68.54
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 70.23,
+            "fiscal_target": 72.86,
+            "debt": 68.66,
+            "correction_rule": 62.6,
+            "unscored_status": 70.56
+          },
+          "overall_percent": 68.98,
+          "position_1_percent": 69.68,
+          "position_2_percent": 68.28
+        }
+      ]
+    },
+    {
+      "interface": "persistent_strip",
+      "condition": "progressive_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 59.36,
+            "fiscal_target": 77.41,
+            "debt": 72.98,
+            "correction_rule": 59.21,
+            "unscored_status": 75.04
+          },
+          "overall_percent": 68.8,
+          "position_1_percent": 69.38,
+          "position_2_percent": 68.22
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.19,
+            "fiscal_target": 77.16,
+            "debt": 73.08,
+            "correction_rule": 67.59,
+            "unscored_status": 75.21
+          },
+          "overall_percent": 73.65,
+          "position_1_percent": 74.23,
+          "position_2_percent": 73.06
+        }
+      ]
+    },
+    {
+      "interface": "persistent_strip",
+      "condition": "partial_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.38,
+            "fiscal_target": 77.34,
+            "debt": 73.24,
+            "correction_rule": 67.38,
+            "unscored_status": 75.21
+          },
+          "overall_percent": 73.71,
+          "position_1_percent": 74.38,
+          "position_2_percent": 73.03
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.13,
+            "fiscal_target": 69.23,
+            "debt": 57.2,
+            "correction_rule": 67.31,
+            "unscored_status": 75.0
+          },
+          "overall_percent": 68.77,
+          "position_1_percent": 69.14,
+          "position_2_percent": 68.4
+        }
+      ]
+    },
+    {
+      "interface": "common_facts_refresh",
+      "condition": "neutral_central_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 72.85,
+            "fiscal_target": 74.65,
+            "debt": 68.51,
+            "correction_rule": 69.53,
+            "unscored_status": 77.48
+          },
+          "overall_percent": 72.6,
+          "position_1_percent": 72.89,
+          "position_2_percent": 72.32
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 72.5,
+            "fiscal_target": 74.37,
+            "debt": 68.49,
+            "correction_rule": 69.73,
+            "unscored_status": 77.53
+          },
+          "overall_percent": 72.52,
+          "position_1_percent": 72.95,
+          "position_2_percent": 72.1
+        }
+      ]
+    },
+    {
+      "interface": "common_facts_refresh",
+      "condition": "neutral_high_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 67.81,
+            "fiscal_target": 69.79,
+            "debt": 64.08,
+            "correction_rule": 65.08,
+            "unscored_status": 73.07
+          },
+          "overall_percent": 67.97,
+          "position_1_percent": 68.36,
+          "position_2_percent": 67.57
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 67.83,
+            "fiscal_target": 70.27,
+            "debt": 64.02,
+            "correction_rule": 65.3,
+            "unscored_status": 73.15
+          },
+          "overall_percent": 68.11,
+          "position_1_percent": 68.24,
+          "position_2_percent": 67.99
+        }
+      ]
+    },
+    {
+      "interface": "common_facts_refresh",
+      "condition": "progressive_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 56.64,
+            "fiscal_target": 74.5,
+            "debt": 68.31,
+            "correction_rule": 61.72,
+            "unscored_status": 77.77
+          },
+          "overall_percent": 67.79,
+          "position_1_percent": 68.05,
+          "position_2_percent": 67.53
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 72.52,
+            "fiscal_target": 74.78,
+            "debt": 68.35,
+            "correction_rule": 69.44,
+            "unscored_status": 77.63
+          },
+          "overall_percent": 72.54,
+          "position_1_percent": 72.75,
+          "position_2_percent": 72.35
+        }
+      ]
+    },
+    {
+      "interface": "common_facts_refresh",
+      "condition": "partial_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 72.75,
+            "fiscal_target": 74.91,
+            "debt": 68.42,
+            "correction_rule": 69.49,
+            "unscored_status": 77.69
+          },
+          "overall_percent": 72.65,
+          "position_1_percent": 72.91,
+          "position_2_percent": 72.4
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 72.53,
+            "fiscal_target": 66.64,
+            "debt": 52.75,
+            "correction_rule": 69.6,
+            "unscored_status": 78.05
+          },
+          "overall_percent": 67.91,
+          "position_1_percent": 68.43,
+          "position_2_percent": 67.39
+        }
+      ]
+    },
+    {
+      "interface": "strip_plus_refresh",
+      "condition": "neutral_central_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.5,
+            "fiscal_target": 77.87,
+            "debt": 73.6,
+            "correction_rule": 73.91,
+            "unscored_status": 79.89
+          },
+          "overall_percent": 76.15,
+          "position_1_percent": 76.43,
+          "position_2_percent": 75.88
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.62,
+            "fiscal_target": 77.6,
+            "debt": 73.85,
+            "correction_rule": 73.34,
+            "unscored_status": 79.69
+          },
+          "overall_percent": 76.02,
+          "position_1_percent": 76.04,
+          "position_2_percent": 76.0
+        }
+      ]
+    },
+    {
+      "interface": "strip_plus_refresh",
+      "condition": "neutral_high_fatigue",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 71.22,
+            "fiscal_target": 73.08,
+            "debt": 69.03,
+            "correction_rule": 69.63,
+            "unscored_status": 75.46
+          },
+          "overall_percent": 71.68,
+          "position_1_percent": 71.93,
+          "position_2_percent": 71.44
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 71.03,
+            "fiscal_target": 73.14,
+            "debt": 69.16,
+            "correction_rule": 69.07,
+            "unscored_status": 74.9
+          },
+          "overall_percent": 71.46,
+          "position_1_percent": 71.82,
+          "position_2_percent": 71.11
+        }
+      ]
+    },
+    {
+      "interface": "strip_plus_refresh",
+      "condition": "progressive_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 59.43,
+            "fiscal_target": 77.8,
+            "debt": 73.52,
+            "correction_rule": 65.83,
+            "unscored_status": 79.48
+          },
+          "overall_percent": 71.21,
+          "position_1_percent": 71.49,
+          "position_2_percent": 70.94
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.41,
+            "fiscal_target": 77.63,
+            "debt": 73.59,
+            "correction_rule": 73.58,
+            "unscored_status": 79.67
+          },
+          "overall_percent": 75.98,
+          "position_1_percent": 76.16,
+          "position_2_percent": 75.79
+        }
+      ]
+    },
+    {
+      "interface": "strip_plus_refresh",
+      "condition": "partial_favorable",
+      "cards": [
+        {
+          "card": "progressive_primary_balance",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.61,
+            "fiscal_target": 77.8,
+            "debt": 73.99,
+            "correction_rule": 73.92,
+            "unscored_status": 79.38
+          },
+          "overall_percent": 76.14,
+          "position_1_percent": 76.34,
+          "position_2_percent": 75.94
+        },
+        {
+          "card": "protected_partial_path",
+          "fact_accuracy_percent": {
+            "principal_exposure": 75.67,
+            "fiscal_target": 69.59,
+            "debt": 58.0,
+            "correction_rule": 73.93,
+            "unscored_status": 79.5
+          },
+          "overall_percent": 71.34,
+          "position_1_percent": 71.67,
+          "position_2_percent": 71.01
+        }
+      ]
+    }
+  ],
+  "guardrails": [
+    "Bonuses and penalties are declared heuristic mechanics, not measured interface effects.",
+    "The experiment generates fact recovery only, never support or turnout.",
+    "Passing selects an interface for human testing, not deployment."
+  ]
+}

@@ -2,14 +2,16 @@
 
 ## Hypothesis
 
-The layered symmetric card plus an optional, non-gating fact check improves
+The persistent symmetric difference strip, common-facts refresh, and optional,
+non-gating fact check improve
 recovery of who pays, the fiscal target, debt consequence, correction authority,
 and unscored status without giving either candidate a material framing advantage.
 
 ## Design
 
 - preregister wording, outcomes, exclusions, and analysis before recruitment;
-- randomize candidate order and layered versus flat presentation;
+- randomize candidate order and persistent-plus-refresh versus sequential
+  layered presentation;
 - include neutral, candidate-favorable, and overloaded stress variants;
 - recruit at least 400 completed participants for an initial design test;
 - report rather than conceal results for low numeracy, limited English

@@ -1,0 +1,22 @@
+{
+  "experiment_id": "ratify-persistent-candidate-comparison-v1",
+  "status": "synthetic_interface_sensitivity_not_human_validation",
+  "agents_per_run": 10000,
+  "seeds": [8601, 8602, 8603, 8604, 8605],
+  "questions": ["principal_exposure", "fiscal_target", "debt", "correction_rule", "unscored_status"],
+  "interfaces": [
+    {"id":"sequential_layered","second_card_decay":0.10,"overload_penalty":0.00,"question_bonus":{"principal_exposure":0.00,"fiscal_target":0.00,"debt":0.00,"correction_rule":0.00,"unscored_status":0.00}},
+    {"id":"persistent_strip","second_card_decay":0.03,"overload_penalty":0.01,"question_bonus":{"principal_exposure":0.05,"fiscal_target":0.05,"debt":0.07,"correction_rule":0.05,"unscored_status":0.04}},
+    {"id":"common_facts_refresh","second_card_decay":0.02,"overload_penalty":0.02,"question_bonus":{"principal_exposure":0.03,"fiscal_target":0.03,"debt":0.03,"correction_rule":0.08,"unscored_status":0.07}},
+    {"id":"strip_plus_refresh","second_card_decay":0.01,"overload_penalty":0.03,"question_bonus":{"principal_exposure":0.07,"fiscal_target":0.07,"debt":0.09,"correction_rule":0.13,"unscored_status":0.10}}
+  ],
+  "conditions": [
+    {"id":"neutral_central_fatigue","fatigue":0.35,"frame_penalty":{}},
+    {"id":"neutral_high_fatigue","fatigue":0.75,"frame_penalty":{}},
+    {"id":"progressive_favorable","fatigue":0.35,"frame_penalty":{"progressive_primary_balance":{"principal_exposure":0.16,"correction_rule":0.08}}},
+    {"id":"partial_favorable","fatigue":0.35,"frame_penalty":{"protected_partial_path":{"debt":0.16,"fiscal_target":0.08}}}
+  ],
+  "base_layered_bonus": 0.16,
+  "acceptance": {"minimum_each_fact_percent":70.0,"maximum_candidate_gap_points":2.0,"maximum_order_gap_points":2.0},
+  "guardrails": ["Bonuses and penalties are declared heuristic mechanics, not measured interface effects.","The experiment generates fact recovery only, never support or turnout.","Passing selects an interface for human testing, not deployment."]
+}

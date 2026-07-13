@@ -5,7 +5,7 @@ validation-first growth system.
 
 ## Active wave
 
-- `2026-07-12-persistent-comparison`
+- `2026-07-12-human-test-instrument`
 
 ## Completed waves
 
@@ -19,6 +19,7 @@ validation-first growth system.
 - `2026-07-12-candidate-scorecards`
 - `2026-07-12-external-review-packets`
 - `2026-07-12-voter-lab-v2`
+- `2026-07-12-persistent-comparison`
 
 ## Protocol
 
