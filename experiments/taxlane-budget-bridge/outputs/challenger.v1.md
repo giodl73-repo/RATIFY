@@ -10,13 +10,13 @@ Fiscal path: **primary_balance**; FY2036 primary adjustment: **$981.0B**; first-
 
 | Source | Share | Amount |
 |---|---:|---:|
-| progressive revenue | 30.8% | $302.0B |
-| broad revenue | 16.2% | $159.1B |
-| tax expenditure reform | 22.5% | $220.6B |
-| primary outlay adjustment | 26.0% | $254.7B |
-| verified administration savings | 4.5% | $44.6B |
+| progressive revenue | 32.2% | $316.3B |
+| broad revenue | 17.0% | $166.7B |
+| tax expenditure reform | 23.6% | $231.1B |
+| primary outlay adjustment | 27.2% | $266.8B |
+| verified administration savings | 0.0% | $0.0B |
 
-Every use allocation and funding mix sums to 100. Administration savings are capped at 5% of the adjustment; they cannot serve as an unlimited balancing plug.
+Every use allocation and funding mix sums to 100. Administration savings are capped at 0% of the adjustment under the current evidence gate; they cannot serve as an unsupported balancing plug.
 
 ## Next gate
 

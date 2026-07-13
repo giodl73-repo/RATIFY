@@ -32,18 +32,18 @@
     "science-space-technology": 0.09598158154751904
   },
   "adjustment_funding_mix_percent": {
-    "progressive_revenue": 30.783617461515096,
-    "broad_revenue": 16.21790204004991,
-    "tax_expenditure_reform": 22.4931682876005,
-    "primary_outlay_adjustment": 25.9622447525368,
-    "verified_administration_savings": 4.543067458297697
+    "progressive_revenue": 32.248697545426204,
+    "broad_revenue": 16.989758216842752,
+    "tax_expenditure_reform": 23.563682268727735,
+    "primary_outlay_adjustment": 27.197861969003316,
+    "verified_administration_savings": 0.0
   },
   "fy2036_adjustment_funding_billions": {
-    "progressive_revenue": 301.97312683343074,
-    "broad_revenue": 159.0901587779512,
-    "tax_expenditure_reform": 220.6476340439486,
-    "primary_outlay_adjustment": 254.67767838979984,
-    "verified_administration_savings": 44.56540195486959
+    "progressive_revenue": 316.34488851976016,
+    "broad_revenue": 166.66171281844763,
+    "tax_expenditure_reform": 231.14888376237545,
+    "primary_outlay_adjustment": 266.7985148994168,
+    "verified_administration_savings": 0.0
   },
   "invariants": {
     "uses_sum_100": true,

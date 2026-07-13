@@ -13,6 +13,10 @@ and Yes/No ratification example.
 The snapshot does not imply TAXLANE endorsement of citizen lawmaking or of any
 RATIFY package.
 
+Administrative savings are currently capped at zero because no evidence-backed
+joint package score exists. A percentage guardrail cannot substitute for a
+verified dollar amount.
+
 ## Planned flow
 
 ```text

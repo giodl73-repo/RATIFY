@@ -1,0 +1,62 @@
+{
+  "record_id": "taxlane-bridge-instrument-shortlist-v1",
+  "candidate_status": "specific_instruments_identified_not_jointly_scored",
+  "target_path": "primary_balance",
+  "target_window": "2026-2036",
+  "target_cumulative_primary_adjustment_billions": 5225.202,
+  "funding_targets": [
+    {
+      "category":"progressive_revenue",
+      "target_share_percent":32.248698,
+      "target_cumulative_billions":1685.060,
+      "candidate_instruments":[
+        {"option_id":"agi_surtax","cbo_2025_2034_billions":[1051,1440],"selection_status":"candidate_requires_threshold_choice"},
+        {"option_id":"cap_gains_two_points","cbo_2025_2034_billions":[103,103],"selection_status":"candidate"},
+        {"option_id":"financial_transactions_tax","cbo_2025_2034_billions":[297,297],"selection_status":"candidate_requires_market_design"}
+      ]
+    },
+    {
+      "category":"broad_revenue",
+      "target_share_percent":16.989758,
+      "target_cumulative_billions":887.749,
+      "candidate_instruments":[
+        {"option_id":"emissions_tax","cbo_2025_2034_billions":[645,919],"selection_status":"candidate_requires_household_rebate_and_transition_design"},
+        {"option_id":"vat_5","cbo_2025_2034_billions":[2180,3380],"selection_status":"overscale_at_five_percent_requires_rate_and_rebate_rescore"}
+      ]
+    },
+    {
+      "category":"tax_expenditure_reform",
+      "target_share_percent":23.563682,
+      "target_cumulative_billions":1231.250,
+      "candidate_instruments":[
+        {"option_id":"employment_health_tax_subsidy","cbo_2025_2034_billions":[521,965],"selection_status":"candidate_requires_risk_geography_and_labor_market_design"},
+        {"option_id":"itemized_deductions","cbo_2025_2034_billions":[736,3424],"selection_status":"candidate_requires_variant_and_charitable_housing_interaction_choice"}
+      ]
+    },
+    {
+      "category":"primary_outlay_adjustment",
+      "target_share_percent":27.197862,
+      "target_cumulative_billions":1421.143,
+      "candidate_instruments":[
+        {"option_id":"defense_annual_budget","cbo_2025_2034_billions":[959,959],"selection_status":"candidate_requires_capability_and_workforce_plan"},
+        {"option_id":"medicare_advantage_benchmarks","cbo_2025_2034_billions":[489,489],"selection_status":"candidate_requires_county_plan_access_and_quality_gates"}
+      ]
+    },
+    {
+      "category":"verified_administration_savings",
+      "target_share_percent":0.0,
+      "target_cumulative_billions":0.0,
+      "candidate_instruments":[],
+      "selection_status":"zero_until_evidence_backed_joint_score_exists"
+    }
+  ],
+  "score_mismatch_flags": [
+    "Candidate option scores use CBO's 2025-2034 window; the target uses 2026-2036.",
+    "Options were scored individually and generally against an earlier baseline.",
+    "Revenue bases, behavior, and income/payroll offsets interact.",
+    "Spending options can shift cost and risk to households, states, providers, workers, and regions.",
+    "Published ranges represent materially different policy variants.",
+    "Arithmetic addition is not a package score."
+  ],
+  "ratification_status": "blocked_requires_instrument_selection_legislative_specification_and_joint_score"
+}

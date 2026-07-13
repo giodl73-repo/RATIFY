@@ -98,7 +98,7 @@ def main():
              "## Funding of the FY2036 adjustment", "", "| Source | Share | Amount |", "|---|---:|---:|"]
     for key in config["funding_categories"]:
         lines.append(f"| {key.replace('_',' ')} | {result['adjustment_funding_mix_percent'][key]:.1f}% | ${funding_amounts_2036[key]:.1f}B |")
-    lines += ["", "Every use allocation and funding mix sums to 100. Administration savings are capped at 5% of the adjustment; they cannot serve as an unlimited balancing plug.", "", "## Next gate", "", "This challenger must receive updated fiscal, legal, distribution, rights, outcome, and implementation review. Only then can it be rendered as YES challenger / NO current law.", ""]
+    lines += ["", f"Every use allocation and funding mix sums to 100. Administration savings are capped at {config['administration_savings_cap_percent_of_adjustment']:.0f}% of the adjustment under the current evidence gate; they cannot serve as an unsupported balancing plug.", "", "## Next gate", "", "This challenger must receive updated fiscal, legal, distribution, rights, outcome, and implementation review. Only then can it be rendered as YES challenger / NO current law.", ""]
     (out / "challenger.v1.md").write_text("\n".join(lines), encoding="utf-8")
 
 

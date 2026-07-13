@@ -11,6 +11,7 @@
     {"id":"mixed_balance","weight":0.28,"path_weights":{"partial":0.35,"primary_balance":0.55,"primary_surplus_one_percent":0.10},"funding_alpha":[2.5,2.5,2.5,2.5,0.6]},
     {"id":"limited_adjustment","weight":0.10,"path_weights":{"partial":0.80,"primary_balance":0.18,"primary_surplus_one_percent":0.02},"funding_alpha":[2.0,2.0,2.0,2.0,0.5]}
   ],
-  "administration_savings_cap_percent_of_adjustment": 5.0,
+  "administration_savings_cap_percent_of_adjustment": 0.0,
+  "administration_savings_cap_basis": "No evidence-backed joint package score is available; improper payments, confirmed fraud, recoveries, and preventable future loss may not be inferred from one another.",
   "simulation_status": "synthetic_package_construction_not_public_opinion_or_ratification"
 }

@@ -5,12 +5,13 @@ validation-first growth system.
 
 ## Active wave
 
-- `2026-07-12-taxlane-budget-bridge`
+- `2026-07-12-instrument-specification`
 
 ## Completed waves
 
 - `2026-07-12-world-systems-first-comparison`
 - `2026-07-12-public-priority-reauthorization`
+- `2026-07-12-taxlane-budget-bridge`
 
 ## Protocol
 
