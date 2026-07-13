@@ -3,6 +3,9 @@
 Experiments are synthetic and reproducible. They do not predict elections or
 claim to represent public opinion.
 
+`voter-lab/` is the shared agent-based voter model. New experiments should use
+its current version or record and bridge-test a justified local model.
+
 ## Planned families
 
 1. Annual 100-point budget ballot generalized from TAXLANE.

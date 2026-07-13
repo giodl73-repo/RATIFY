@@ -1,0 +1,20 @@
+{
+  "model_id": "ratify-voter-lab-v1",
+  "status": "synthetic_prior_not_empirically_calibrated",
+  "trait_scale": "zero_to_one_distribution_means_and_standard_deviations",
+  "traits": ["outcome_orientation","pocketbook_sensitivity","fiscal_concern","risk_aversion","status_quo_preference","institutional_trust","anti_establishment","rights_concern","issue_concentration","numeracy","social_susceptibility","strategic_sophistication","participation_propensity","fatigue_sensitivity"],
+  "archetypes": [
+    {"id":"outcome_deliberator","weight":0.14,"means":[0.85,0.45,0.65,0.45,0.35,0.60,0.30,0.75,0.35,0.80,0.30,0.55,0.78,0.35],"sd":0.14},
+    {"id":"pocketbook_pragmatist","weight":0.13,"means":[0.60,0.90,0.70,0.60,0.55,0.45,0.45,0.45,0.45,0.55,0.45,0.50,0.70,0.45],"sd":0.16},
+    {"id":"continuity_guardian","weight":0.10,"means":[0.55,0.50,0.55,0.85,0.88,0.70,0.20,0.70,0.45,0.55,0.42,0.35,0.82,0.40],"sd":0.13},
+    {"id":"fiscal_hawk","weight":0.10,"means":[0.55,0.65,0.95,0.55,0.45,0.45,0.50,0.40,0.55,0.70,0.32,0.65,0.75,0.35],"sd":0.14},
+    {"id":"institutional_truster","weight":0.09,"means":[0.65,0.45,0.55,0.50,0.60,0.92,0.08,0.65,0.35,0.62,0.50,0.38,0.76,0.38],"sd":0.12},
+    {"id":"anti_capture_skeptic","weight":0.10,"means":[0.65,0.55,0.70,0.45,0.35,0.15,0.88,0.70,0.55,0.68,0.25,0.72,0.72,0.35],"sd":0.15},
+    {"id":"single_issue_intense","weight":0.09,"means":[0.60,0.55,0.45,0.50,0.40,0.45,0.50,0.62,0.95,0.52,0.48,0.65,0.84,0.30],"sd":0.17},
+    {"id":"community_signal_follower","weight":0.09,"means":[0.50,0.55,0.50,0.55,0.58,0.55,0.40,0.58,0.45,0.42,0.88,0.32,0.72,0.48],"sd":0.15},
+    {"id":"strategic_participant","weight":0.07,"means":[0.65,0.55,0.65,0.40,0.30,0.48,0.50,0.55,0.58,0.82,0.35,0.95,0.90,0.25],"sd":0.12},
+    {"id":"cross_pressured_uncertain","weight":0.05,"means":[0.55,0.62,0.58,0.65,0.60,0.45,0.48,0.60,0.38,0.48,0.60,0.35,0.58,0.62],"sd":0.18},
+    {"id":"low_information_fatigued","weight":0.04,"means":[0.40,0.60,0.42,0.60,0.72,0.48,0.42,0.45,0.55,0.20,0.70,0.20,0.42,0.92],"sd":0.16}
+  ],
+  "guardrails": ["Archetypes are mixture components, not demographic stereotypes.","Traits must be sampled with bounded distributions and declared correlations.","Weights and parameters are synthetic priors until calibrated.","Every design result must be rerun across alternative mixtures and module settings."]
+}

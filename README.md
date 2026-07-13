@@ -68,6 +68,11 @@ A program review should offer more than “keep” or “abolish”:
   deliberation, simulation, innovation, administration, and future citizens.
 - `context/waves/` — bounded learning waves and retained decision gates.
 
+Voter-facing experiments share a versioned Voter Lab modeled after traffic
+microsimulation: continuous heterogeneous traits, situational state,
+information, interaction, participation, and institutional rules. Its current
+parameters are synthetic priors, not estimates of the electorate.
+
 ## Innovation discipline
 
 RATIFY adapts RUNE's physical roles, parliament/stakeholder split, bounded
