@@ -1,0 +1,16 @@
+{
+  "experiment_id": "taxlane-balanced-budget-bridge-v1",
+  "seed": 20260715,
+  "ballots": 6000,
+  "use_concentration": 70.0,
+  "funding_categories": ["progressive_revenue","broad_revenue","tax_expenditure_reform","primary_outlay_adjustment","verified_administration_savings"],
+  "archetypes": [
+    {"id":"revenue_progressive","weight":0.22,"path_weights":{"partial":0.25,"primary_balance":0.55,"primary_surplus_one_percent":0.20},"funding_alpha":[6.0,1.5,3.0,1.2,0.5]},
+    {"id":"broad_shared","weight":0.22,"path_weights":{"partial":0.30,"primary_balance":0.55,"primary_surplus_one_percent":0.15},"funding_alpha":[2.0,5.5,2.0,2.0,0.5]},
+    {"id":"spending_heavy","weight":0.18,"path_weights":{"partial":0.40,"primary_balance":0.50,"primary_surplus_one_percent":0.10},"funding_alpha":[1.0,1.0,1.5,6.5,0.7]},
+    {"id":"mixed_balance","weight":0.28,"path_weights":{"partial":0.35,"primary_balance":0.55,"primary_surplus_one_percent":0.10},"funding_alpha":[2.5,2.5,2.5,2.5,0.6]},
+    {"id":"limited_adjustment","weight":0.10,"path_weights":{"partial":0.80,"primary_balance":0.18,"primary_surplus_one_percent":0.02},"funding_alpha":[2.0,2.0,2.0,2.0,0.5]}
+  ],
+  "administration_savings_cap_percent_of_adjustment": 5.0,
+  "simulation_status": "synthetic_package_construction_not_public_opinion_or_ratification"
+}

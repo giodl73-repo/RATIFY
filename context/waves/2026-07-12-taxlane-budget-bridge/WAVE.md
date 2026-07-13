@@ -18,10 +18,10 @@ produce one reviewed challenger for binary ratification.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Define the cross-repo input and provenance contract | active |
-| 02 | Implement balanced use-and-funding ballots | pending |
-| 03 | Compare aggregation and construct a challenger | pending |
-| 04 | Render a complete Yes/No ratification example and role review | pending |
+| 01 | Define the cross-repo input and provenance contract | complete |
+| 02 | Implement balanced use-and-funding ballots | complete |
+| 03 | Compare aggregation and construct a challenger | complete |
+| 04 | Render a complete Yes/No ratification example and role review | active |
 
 ## Decision gate
 

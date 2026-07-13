@@ -1,0 +1,37 @@
+{
+  "snapshot_id": "taxlane-budget-bridge-input-v1",
+  "upstream_repository": "https://github.com/giodl73-repo/TAXLANE",
+  "upstream_commit": "c6b22bd642724ce11f3e19c17c759edfc8f74179",
+  "observed_date": "2026-07-12",
+  "upstream_artifacts": [
+    {"path":"experiments/annual-budget-ballot/config.v2.json","sha256":"00d3720297c970a774abb534ff8274f454862eee26aa7ca56cf13d791bb645f8"},
+    {"path":"experiments/annual-budget-ballot/outputs/diverse-run.v2.json","sha256":"3b2c11464fa5571297df7d586704e09e80b13f9ba0109643d034b155e86376aa"},
+    {"path":"data/derived/breadth_benchmark_matrix/fiscal_debt_dynamics_2026_2036.v1.draft.json","sha256":"081a539157debe779f8e882b7ae5bce056107f161b90908129816afa4bb8b3b3"}
+  ],
+  "upstream_status": "synthetic_diversity_stress_test_not_public_opinion_forecast",
+  "lane_columns": ["lane_id", "label", "current_normalized_share", "taxlane_v2_ec_synthetic_share"],
+  "lanes": [
+    ["social-security","Social Security",21.985912,17.009087],
+    ["medicare","Medicare",13.863569,12.897883],
+    ["health","Health (non-Medicare)",13.610313,12.524941],
+    ["net-interest","Debt Service and Past Commitments",13.492803,11.149326],
+    ["national-defense","National Defense",12.742785,11.046908],
+    ["income-security","Income Security and Family Support",9.758807,9.700617],
+    ["veterans","Veterans and Service Commitments",5.246025,6.298202],
+    ["transportation","Transportation and Mobility Infrastructure",2.021273,3.886734],
+    ["justice-general-government","Constitutional Government and Justice",1.720427,2.940604],
+    ["environment-energy-natural-resources","Natural Resources, Energy, and Environment",1.538360,2.961661],
+    ["community-regional-development","Community, Disaster, and Regional Development",1.145749,2.490002],
+    ["education-training-employment-social-services","Education, Work, and Social Services",1.002006,2.433579],
+    ["agriculture","Agriculture and Food Production",0.659910,1.620950],
+    ["international-affairs","International Affairs and Diplomacy",0.628314,1.399352],
+    ["science-space-technology","Science, Space, and Civic Capacity",0.583748,1.640154]
+  ],
+  "fiscal_paths": [
+    {"id":"current_law","fy2036_primary_adjustment_percent_gdp":0.0,"fy2036_primary_adjustment_billions":0.0,"cumulative_primary_adjustment_2026_2036_billions":0.0,"fy2036_debt_percent_gdp":120.210},
+    {"id":"partial","fy2036_primary_adjustment_percent_gdp":1.1,"fy2036_primary_adjustment_billions":513.833,"cumulative_primary_adjustment_2026_2036_billions":2737.011,"fy2036_debt_percent_gdp":113.592},
+    {"id":"primary_balance","fy2036_primary_adjustment_percent_gdp":2.1,"fy2036_primary_adjustment_billions":980.954,"cumulative_primary_adjustment_2026_2036_billions":5225.202,"fy2036_debt_percent_gdp":107.575},
+    {"id":"primary_surplus_one_percent","fy2036_primary_adjustment_percent_gdp":3.1,"fy2036_primary_adjustment_billions":1448.075,"cumulative_primary_adjustment_2026_2036_billions":7713.394,"fy2036_debt_percent_gdp":101.559}
+  ],
+  "ratify_boundary": "Snapshot preserves selected TAXLANE inputs and status. RATIFY owns all civic aggregation, funding-ballot, and ratification interpretations."
+}

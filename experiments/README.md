@@ -27,3 +27,8 @@ estimates.
 `balanced-ballot-aggregation/` compares methods for turning complete 100-point
 use-and-funding ballots into one fiscally closed challenger for later Yes/No
 ratification.
+
+`taxlane-budget-bridge/` pins TAXLANE fiscal and allocation inputs, adds linked
+funding choices, and selects an actual complete-ballot medoid. Its current
+candidate is blocked from ratification until categories map to executable,
+jointly scored policy instruments.
