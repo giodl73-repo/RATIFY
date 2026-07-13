@@ -1,0 +1,20 @@
+{
+  "record_id":"ratify-broad-shared-emissions-dividend-v1",
+  "package_variant":"broad_shared_contribution",
+  "emissions_tax":{"initial_rate_2027_dollars_per_metric_ton":25,"annual_real_rate_growth_percent":2,"inflation_adjustment":"CPI-U","coverage":"CBO 60962 covered energy-related CO2 and specified large-facility greenhouse-gas emissions; retain existing methane-charge interaction","effective_date":"2027-01-01"},
+  "net_receipt_allocation":[
+    {"use":"household_dividend","percent":30},
+    {"use":"worker_and_community_transition","percent":10},
+    {"use":"primary_balance_adjustment","percent":60}
+  ],
+  "household_dividend":{"unit":"equal adult share; qualifying dependents receive one-half share","eligibility":"same person and residency rules as the household consumption protection credit","payment":"quarterly through the same Treasury rails, with nonfiler access","tax_treatment":"not taxable income","benefit_treatment":"excluded from federal means-tested benefit income and resources","timing":"first payment no later than the end of the first full calendar quarter of tax collection","reconciliation":"underpayments corrected; ordinary eligibility-estimate errors not clawed back absent fraud or material misrepresentation"},
+  "transition_allocation":[
+    {"use":"dislocated_worker_wage_health_and_pension_bridge","percent_of_net_receipts":4},
+    {"use":"formula_community_tax_base_and_public_infrastructure_transition","percent_of_net_receipts":3},
+    {"use":"low_income_household_efficiency_and_energy_affordability","percent_of_net_receipts":2},
+    {"use":"tribal_territorial_rural_and_energy_isolated_transition","percent_of_net_receipts":1}
+  ],
+  "transition_rules":{"formula_inputs":["verified covered-emissions decline","direct covered-industry employment exposure","local own-source revenue exposure","energy burden","unemployment and displacement"],"anti_capture":["formula allocation published before awards","beneficiaries and workers may apply directly where administrable","competitive contracts publish beneficial ownership and performance","no recipient receives privileged ballot or evidence status","unspent transition funds remain restricted and do not become assumed deficit savings"]},
+  "score_requirements":["gross receipts","income and payroll tax offsets","dividend and transition outlays","administration","emissions and energy-price response","household net incidence","worker and regional transition","international leakage and trade effects","net primary-balance contribution","macroeconomic and interest effects"],
+  "design_status":"specified_for_independent_score_not_scored"
+}

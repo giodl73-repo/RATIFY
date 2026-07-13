@@ -10,9 +10,9 @@ does not need to invent material policy choices.
 
 | Pulse | Purpose | Status |
 |---|---|---|
-| 01 | Specify VAT credit and delivery | active |
-| 02 | Specify emissions dividend and regional transition | pending |
-| 03 | Specify defense capability and workforce path | pending |
+| 01 | Specify VAT credit and delivery | complete |
+| 02 | Specify emissions dividend and regional transition | complete |
+| 03 | Specify defense capability and workforce path | active |
 | 04 | Complete Medicare protections and score-readiness review | pending |
 
 ## Decision gate

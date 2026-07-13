@@ -1,0 +1,31 @@
+{
+  "record_id":"ratify-broad-shared-vat-credit-v1",
+  "package_variant":"broad_shared_contribution",
+  "vat":{"rate_percent":5.0,"base":"CBO 60961 narrow base","method":"credit_invoice","effective_date":"2027-01-01"},
+  "credit":{
+    "name":"household consumption protection credit",
+    "base_year":2027,
+    "annual_amount_adult_2027_dollars":600,
+    "annual_amount_qualifying_dependent_2027_dollars":300,
+    "amount_formula":"5 percent times a protected taxable-consumption allowance of $12,000 per adult and $6,000 per qualifying dependent",
+    "indexing":"CPI-U, rounded to the nearest $10, no nominal decrease",
+    "income_measure":"modified adjusted gross income using the joint-score legislative specification",
+    "full_credit_through":"200 percent of the applicable HHS poverty guideline for household size",
+    "phaseout":"linear from 200 percent to 400 percent of the applicable HHS poverty guideline; zero at or above 400 percent",
+    "filing_unit":"federal income-tax unit with household-size poverty guideline determined from eligible adults and qualifying dependents",
+    "eligible_person":"U.S. citizen, U.S. national, or lawfully present resident treated as a U.S. resident for federal tax purposes with a valid SSN or ITIN; nonresident aliens excluded",
+    "payment":"monthly advance payment of one-twelfth through Treasury using tax, Social Security, and participating benefit-program records, with a nonfiler enrollment path",
+    "reconciliation":"annual reconciliation may increase an underpayment; no clawback for income-estimate error or ordinary household change absent fraud or material misrepresentation",
+    "tax_treatment":"not taxable income",
+    "benefit_treatment":"excluded from income and resources for federal means-tested benefits",
+    "assignment_garnishment":"not assignable and protected from garnishment except final adjudicated fraud recovery with due process"
+  },
+  "administration":{
+    "lead":"Department of the Treasury and Internal Revenue Service",
+    "data_partners":["Social Security Administration","participating federal and state benefit agencies"],
+    "startup_period":"enact no later than 2025-10-01 for a 2027-01-01 launch, subject to scorer and administrator feasibility review",
+    "requirements":["multilingual paper, phone, in-person, and digital nonfiler enrollment","monthly payment status and correction portal","identity-theft and duplicate-payment controls","prepayment notice and appeal","public payment timeliness, error, underpayment, and access reporting"]
+  },
+  "score_requirements":["gross VAT receipts","income and payroll tax offset","credit outlays and tax offsets","nonparticipation and underpayment","administration and systems cost","behavioral and compliance effects","household net incidence by income, age and family type","monthly cash-flow adequacy","interaction with state sales taxes and benefits"],
+  "design_status":"specified_for_independent_score_not_scored"
+}
