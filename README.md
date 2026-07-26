@@ -5,6 +5,12 @@ durable national consensus.**
 
 **Series:** Election Systems.
 
+## Relationship to the R package family
+
+RATIFY is a civic-governance research product, not a member of the reusable
+RLINE → RPLAN/RCOUNT → BISECT runtime package chain. Its `R` name reflects
+ratification, not a shared crate or dependency boundary.
+
 RATIFY asks what American government might look like if voters served as an
 additional legislative chamber—not merely electing representatives, but
 initiating proposals, ratifying major laws, and periodically reviewing public
