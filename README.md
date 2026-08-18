@@ -5,11 +5,19 @@ durable national consensus.**
 
 **Series:** Election Systems.
 
-## Relationship to the R package family
+## Reuse boundary
 
-RATIFY is a civic-governance research product, not a member of the reusable
-RLINE → RPLAN/RCOUNT → BISECT runtime package chain. Its `R` name reflects
-ratification, not a shared crate or dependency boundary.
+RATIFY is a specialist civic-governance research and simulation product. It
+does not publish runtime packages or versioned production contracts, and no
+portfolio repository declares RATIFY as a dependency or owns compatibility
+proof. Its experiments and retained review packets support policy research;
+they are not deployment artifacts or evidence of public opinion.
+
+RATIFY is intentionally outside the reusable RLINE → RPLAN/RCOUNT → BISECT
+runtime package chain. Its `R` name reflects ratification, not a shared crate or
+dependency boundary. Reuse is limited to cited research methods unless a real
+downstream consumer first defines a bounded contract and jurisdiction-specific
+validation.
 
 RATIFY asks what American government might look like if voters served as an
 additional legislative chamber—not merely electing representatives, but
